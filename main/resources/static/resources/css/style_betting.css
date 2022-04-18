@@ -1,0 +1,334 @@
+/* betting general */
+
+.card-container{
+    margin: 0 auto;
+    max-width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 50px;
+    overflow: auto;
+}
+
+.card{
+    width: 450px;
+    height: 250px;
+    margin-bottom: 25px;
+    border-radius: 15px;
+}
+
+.card-header{
+    border-radius: 15px 15px 0 0;
+}
+
+.card-header:first-child{
+    border-radius: 15px 15px 0 0;
+    background: linear-gradient(45deg, rgba(13,110,253,1) 0%, rgba(40,177,252,1) 100%);
+}
+
+/* ==================== HOVER CARD BIG ==================== */
+
+.card-hover-big{
+    background: #222;
+    width: 400px;
+    height: 500px;
+    margin: 15px;
+    border-radius: 15px;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.4);
+    transition: all 200ms;
+}
+
+.card-hover-big:hover{
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+    transform: scale(1.05);
+}
+
+.card-hover-big .card-content{
+    padding: 15px;
+    text-align: justify;
+    height: 40%;
+}
+
+.card-hover-big .card-content p{
+    font-size: 20px;
+}
+
+
+.card-image{
+    width: 100%;
+    height: 40%;
+    border-radius: 15px 15px 0 0;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+}
+
+#card-lottery .card-image{
+    background: url(../graphics/lottery.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#card-football .card-image{
+    background: url(../graphics/football.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#card-change .card-image{
+    background: url(../graphics/change.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.card-footer{
+    width: 100%;
+    background: none;
+}
+
+.card-footer a{
+    background: linear-gradient(45deg, rgba(13,110,253,1) 0%, rgba(40,177,252,1) 100%);
+    padding: 10px 20px;
+    border-radius: 15px;
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    margin: 10px 50px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
+    text-decoration: none;
+    color: white;
+}
+
+.card-footer a:hover{
+    background: #0a4ed5;
+}
+
+
+
+.lottery-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.box{
+    margin: 15px;
+}
+
+.form-container{
+    margin-top: 0;
+}
+
+
+
+#box_container{
+    padding:25px;
+    width: auto;
+    overflow: visible;
+    margin-bottom: 25px;
+}
+.box {
+    margin-top: 25px;
+    width: 530px;
+    height: 530px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    background-color: #212529;
+    padding-left: 6px;
+    padding-top: 6px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.8);
+}
+
+#form-container{
+    width: 530px;
+    margin: 0 auto;
+    margin-top: 0px;
+    background-color: #212529;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.8);
+    margin-bottom: 25px;
+    color: white;
+}
+
+
+.box-item {
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    border-radius: 5px;
+    line-height: 70px;
+    background: #333;
+    display: inline-block;
+    float: left;
+    margin: 2px;
+    cursor: pointer;
+    font-family: sans-serif;
+    user-select: none;
+    transition-duration: 0.2s;
+    box-shadow: inset 0px 0px 2px 2px #222;
+}
+
+.box-item-selected {
+    background-color: #0d6efd;
+    box-shadow: 0px 0px 10px #0d6efd;
+    box-shadow: inset 0px 0px 5px 2px #333;
+}
+
+.box-item:hover{
+  box-shadow: inset 0px 0px 5px 2px white;
+}
+
+.box-input-div {
+    margin: 15px 15px;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 10px;
+    width: 75%;
+}
+
+.box-input-div > span {
+    display: inline-block;
+    width: 120px;
+}
+
+.box-input-div > input {
+    padding-left: 10px;
+    height: 35px;
+    width: 50px;
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    outline: none;
+    color: #e6e6e6;
+    font-size: 16px;
+}
+
+.box-input-div > button {
+    text-align: center;
+    height: 40px;
+    width: 100px;
+    border: none;
+    outline: none;
+    background: #0d6efd;
+    font-size: 18px;
+    border-radius: 5px;
+    color: white;
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+
+.box-input-div > button:hover {
+    background: #0a58ca;
+}
+
+.box-input-div > button:active {
+    box-shadow: inset 0px 0px 4px 3px rgba(0, 0, 0, 0.3);
+}
+
+#bets-empty{
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+}
+
+#empty-text{
+text-align: center;
+font-size: 20px;
+}
+
+#bet-card{
+    padding: 0;
+    max-width: 1200px;
+    min-height: 300px;
+    max-height: 80vh;
+    margin: 0 auto;
+    background: #222;
+    border-radius: 15px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.4);
+
+}
+
+#bet-card .card-header{
+    height: 50px;
+    color: white;
+}
+
+#bet-card .card-content{
+    max-height: 80vh;
+    min-height: 250px;
+    padding: 0;
+    background: #222;
+    position: relative;
+    border-radius: 0 0 15px 15px;
+    overflow: auto;
+}
+
+
+#bet-table{
+  overflow: auto;
+  max-height: 80vh;
+  padding: 0;
+  border-radius: 15px 15px 0 0;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.4);
+  width: 100%;
+  grid-row: 2;
+  min-height: 250px;
+}
+
+
+#bet-table {
+  border-radius: 0;
+  border-collapse: separate;
+  border-left: 0;
+  border-spacing: 0px;
+  overflow-y: auto;
+}
+
+#bet-table table{
+  width: 100%;
+  max-height: 80vh;
+  background: none;
+  overflow-y: auto;
+}
+
+#bet-table th{
+  background: #222;
+  border: none;
+  color: #999;
+  font-size: 18px;
+  text-align: left;
+  padding-top: 5px;
+  padding-left: 25px;
+  padding-right: 25px;
+  position: sticky; top: 0;
+  box-shadow: 0 5px 2px rgba(0,0,0,0.2);
+}
+
+#bet-table tr{
+  height: 50px;
+  border: none;
+  background: none;
+}
+
+#bet-table tr:nth-child(odd) {
+  background: #1C1C1C;
+}
+
+#bet-table tr:last-child {
+  border-radius: 0 0 15px 15px;
+}
+
+#bet-table td{
+  font-size: 18px;
+  color: #DDD;
+  padding-left: 25px;
+  padding-right: 25px;
+  text-align: left;
+}

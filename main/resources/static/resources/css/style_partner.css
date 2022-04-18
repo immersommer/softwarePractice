@@ -1,0 +1,44 @@
+
+
+#partner-grid{
+    margin: 0 auto;
+    margin-top: 150px;
+    display: grid;
+    max-width: 1000px;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    grid-auto-rows: minmax(100px, 300px);
+}
+
+#general-info{
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+#partner-grid p{
+    font-size: 18px;
+    border-left: 3px solid var(--primary-color);
+}
+
+h4{
+    text-align: left;
+    font-size: 2em;
+      background: linear-gradient(45deg, rgba(13,110,253,1) 0%, rgba(40,177,252,1) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+}
+
+#partner-info{
+    grid-column: 1;
+}
+
+#partner-code{
+    grid-column: 2;
+}
+
+.login-box{
+    width: 100%;
+    max-width: 500px;
+    height: 100%;
+    margin: 0;
+}

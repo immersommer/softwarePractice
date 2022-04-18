@@ -1,0 +1,291 @@
+:root{
+  --content-primary-bg-color: #181818;
+  --content-secondary-bg-color: #222;
+  --content-tertiary-bg-color: #333;
+
+
+}
+
+
+/* Sidebar */
+
+
+.sidebar-container{
+  position: fixed;
+  margin: 0;
+  height: 100vh;
+  max-width: 300px;
+  background: none;
+  z-index: 2;
+}
+
+
+
+.sidebar{
+  box-sizing: border-box;
+  position: fixed;
+  z-index: 2;
+  box-sizing: border-box;
+  padding: 5px;
+  margin: 0;
+  width: 300px;
+  min-height: 100%;
+  height: 100%;
+  background: var(--content-secondary-bg-color);
+  transition: all 200ms;
+  overflow:hidden;
+  box-shadow: 0 0 5px rgba(0,0,0,0.4);
+}
+
+@media (max-width: 1300px) {
+  .sidebar{
+    width: 85px;
+  }
+
+  .main-content{
+    margin-left: 85px;
+    width: calc(100% - 85px);
+  }
+
+  #profile-details{
+    width: 75px;
+  }
+
+  .sidebar #logo{
+    visibility: hidden;
+  }
+}
+
+@media (min-width: 1300px) {
+  .sidebar{
+    width: 300px;
+  }
+
+  .main-content{
+    margin-left: 300px;
+    width: calc(100% - 300px);
+  }
+
+  #profile-details{
+    width: 290px;
+  }
+}
+
+.top-right{
+    position: absolute;
+    top: 15px;
+    left: 45px;
+    transform: none;
+}
+
+.sidebar:hover{
+  width: 300px;
+}
+
+.sidebar:hover #profile-details{
+  width: 290px;
+}
+
+.sidebar:hover #logo{
+  visibility: visible;
+}
+
+
+.sidebar #logo{
+  width: 100%;
+  text-align: center;
+  padding-top: 20px;
+  height: 75px;
+  margin-bottom: 50px;
+  background: #2220;
+  border-radius: 15px;
+  color: white;
+}
+
+#logo h1{
+font-size: 25px;
+}
+
+.sidebar ul{
+  list-style-type: none;
+  padding: 0;
+}
+
+
+.sidebar a{
+  text-decoration: none;
+}
+
+.sidebar .icon{
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  height: 75px;
+  margin-top: 5px;
+  border-radius: 15px;
+  background: var(--content-tertiary-bg-color);
+  box-shadow: 0 0 5px rgba(0,0,0,0.4);
+  overflow: hidden;
+  transition: all 200ms;
+}
+
+.sidebar .icon:hover{
+  background: linear-gradient(45deg, rgba(13,110,253,1) 0%, rgba(40,177,252,1) 100%);
+  transform: scale(1.02);
+}
+
+.sidebar .icon:hover .fas{
+  background: white;
+  background-size: cover;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.sidebar .fas{
+  float: left;
+  background: linear-gradient(45deg, rgba(13,110,253,1) 0%, rgba(40,177,252,1) 100%);
+  background-size: cover;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  width: 75px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+  font-size: 35px;
+}
+
+.sidebar .icon-text{
+  width: 100%;
+  margin-left: 75px;
+  padding: 25px 0;
+  padding-top: 20px;
+  padding-left: 10px;
+  height: 100%;
+  right: 100px;
+}
+
+.sidebar .icon-text p{
+  color: #DDD;
+  font-size: 25px;
+}
+
+
+.sidebar #profile-details{
+  height: 75px;
+  border-radius: 15px;
+  background: var(--content-tertiary-bg-color);
+  margin-bottom: 5px;
+  position: absolute;
+  bottom: 0px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.4);
+  transition: all 200ms;
+  overflow: hidden;
+}
+
+.sidebar #profile-details:hover{
+  height: 240px;
+}
+
+.sidebar #profile-details .fas{
+  width: 75px;
+  height: 75px;
+  position: absolute;
+  bottom: 0px;
+}
+
+.sidebar #profile-details #details{
+  position: absolute;
+  margin-left: 75px;
+  height: 75px;
+  padding: 0;
+  bottom: 0px;
+}
+
+.sidebar #profile-details #details p{
+  overflow: hidden;
+  color: white;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  padding-left: 5px;
+  width: 165px;
+  height: 100%;
+}
+
+.sidebar #profile-details #details p{
+  box-sizing: border-box;
+  font-size: 25px;
+}
+
+.sidebar #profile-options{
+  position: absolute;
+  bottom: 75px;
+  width: 100%;
+  height: 175px;
+  background: var(--content-tertiary-bg-color);
+}
+
+.sidebar .option{
+  box-sizing: border-box;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+
+.sidebar .option:hover{
+  background: linear-gradient(45deg, rgba(13,110,253,1) 0%, rgba(40,177,252,1) 100%);
+}
+
+#sign-out .fas{
+  background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,40,0,1) 100%);
+  background-size: cover;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#sign-out:hover{
+background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,40,0,1) 100%);
+}
+
+#sign-out:hover .fas{
+  background: white;
+  background-size: cover;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#sign-out button{
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+#sign-out p{
+  text-align: left;
+}
+
+.sidebar .option:hover .fas{
+  background: white;
+  background-size: cover;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#sign-out{
+  position: absolute;
+  bottom: 85px;
+  width: 100%;
+  height: 45%;
+}
+
+
+
+#edit-profile{
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  height: 45%;
+}

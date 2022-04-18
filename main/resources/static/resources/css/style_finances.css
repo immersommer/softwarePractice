@@ -1,0 +1,84 @@
+    #finances-content{
+     margin: 0 auto;
+             max-width: 1000px;
+             display: grid;
+             grid-template-columns: repeat(2, 1fr);
+             grid-gap: 20px;
+             grid-auto-rows: minmax(100px, 300px);
+    }
+
+    #user_balance{
+      grid-column: 1 / 2;
+      grid-row: 1 / 1;
+    }
+
+    #payment{
+      grid-column: 1 / 2;
+      grid-row: 2 / 4;
+
+    }
+
+    #transactions{
+      grid-column: 2 / 4;
+      grid-row: 1 / 4;
+    }
+
+    #user_balance{
+      padding: auto;
+    }
+
+    #balance{
+      text-align: center;
+      padding: 50px;
+    }
+
+    .field{
+      margin-top: 25px;
+    }
+
+    #payment_content{
+      padding: 25px;
+      padding-top: 50px;
+    }
+
+    section #wrapper .container_content p{
+       padding-top: 25px;
+       text-align: center;
+    }
+
+    .input{
+    color: white;
+    }
+
+    .button_slide {
+        text-align: center;
+        height: 40px;
+        border: none;
+        outline: none;
+        background: #0d6efd;
+        font-size: 18px;
+        border-radius: 5px;
+        color: white;
+        transition-duration: 0.2s;
+        cursor: pointer;
+    }
+
+    .button_slide:hover {
+        background: #0a58ca;
+    }
+
+    .button_slide:active {
+        box-shadow: inset 0px 0px 4px 3px rgba(0, 0, 0, 0.3);
+    }
+
+    .buttons{
+        text-align: center;
+    }
+
+    .buttons button{
+        margin-top: 10px;
+    }
+
+    .field .input{
+        width: 100%;
+    }

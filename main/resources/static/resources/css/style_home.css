@@ -1,0 +1,130 @@
+body{
+  background-color: #181818;
+}
+
+.content{
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+    grid-gap: 25px;
+}
+
+
+#current_bets .container_content{
+    padding: 0;
+    max-height: 60vh;
+    overflow: auto;
+}
+
+#current_bets .table-scroll-container{
+    padding: 0;
+    max-height: 100%;
+    overflow: auto;
+}
+
+#current_bets .table-scroll{
+    padding: 0;
+    max-height: 100%;
+    overflow: auto;
+}
+
+#current_bets tbody{
+    max-height: 100%;
+    overflow: auto;
+}
+
+#current_bets table{
+max-height: 60vh;
+}
+
+#current_bets table{
+}
+
+section #bets_empty{
+  padding: 10px;
+  margin: 10px;
+
+}
+
+#current_bets{
+max-height: calc(60vh + 50px);
+}
+
+
+section .container .container_content #bets_empty p{
+  text-align: center;
+}
+
+
+
+.user-img{
+  width: 150px;
+  height: 150px;
+  background: url(../graphics/profile-picture-template.png);
+  border-radius: 75px;
+  background-size: 150px;
+}
+
+
+.info-field{
+box-shadow: 0 2px 4px rgba(0,0,0,0.4);
+  background: #222;
+  border-radius: 15px;
+
+  padding: 10px;
+}
+
+#account_details .container_content{
+    grid-gap: 10px;
+}
+
+#user-info-container{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 10px;
+}
+
+.user-info{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.info-label{
+  font-size: 15px;
+  color: grey;
+  margin-bottom: 10px;
+}
+
+.balance-container{
+  text-align: center;
+  width: 100%;
+  padding-top: 50px;
+}
+
+.balance-container h3{
+  width: 100%;
+  text-align: center;
+  color: white;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+.label{
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+
+.info-container{
+  height: 75px;
+  padding-top: 10px;
+}
+
+
+
+
+#account_details .container_content{
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
