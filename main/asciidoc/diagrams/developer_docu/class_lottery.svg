@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="55cm" height="35cm" viewBox="-2 -24 1098 684" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: #ffffff" x="-0.172373" y="-2.26382" width="1095.22" height="661.764"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x="-0.172373" y="-2.26382" width="1095.22" height="661.764"/>
+    <rect style="fill: #ffffff" x="-0.172373" y="-22.2638" width="119.5" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x="-0.172373" y="-22.2638" width="119.5" height="20"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1.82763" y="-7.26382">package lottery</text>
+  </g>
+  <g>
+    <rect style="fill: #add8e6" x="590.716" y="375.278" width="342.572" height="64.306"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x="590.716" y="375.278" width="342.572" height="64.306"/>
+    <rect style="fill: #add8e6" x="590.716" y="355.278" width="81" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x="590.716" y="355.278" width="81" height="20"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="592.716" y="370.278">Salespoint</text>
+  </g>
+  <g>
+    <rect style="fill: #add8e6" x="50.7206" y="48.6292" width="889.111" height="267.786"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x="50.7206" y="48.6292" width="889.111" height="267.786"/>
+    <rect style="fill: #add8e6" x="50.7206" y="28.6292" width="57.9" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x="50.7206" y="28.6292" width="57.9" height="20"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="52.7206" y="43.6292">lottery</text>
+  </g>
+  <g>
+    <rect style="fill: #ffcd99" x="613.004" y="392.378" width="303.9" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x="613.004" y="392.378" width="303.9" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="764.954" y="411.378">SalesPointSecurityConfiguration</text>
+  </g>
+  <g>
+    <rect style="fill: #ffcd99" x="81.9198" y="79.3146" width="241" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x="81.9198" y="79.3146" width="241" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="202.42" y="98.3146">Lottery</text>
+    <rect style="fill: #ffcd99" x="81.9198" y="107.315" width="241" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x="81.9198" y="107.315" width="241" height="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="84.4198" y="121.315">-LOGIN_ROUTE: String = "login"</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="84.4198" y1="126.915" x2="315.42" y2="126.915"/>
+    <rect style="fill: #ffcd99" x="81.9198" y="127.315" width="241" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x="81.9198" y="127.315" width="241" height="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="84.4198" y="141.315">+main(args:String[]): void</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="84.4198" y1="142.915" x2="284.62" y2="142.915"/>
+  </g>
+  <g>
+    <rect style="fill: #ffcd99" x="448.594" y="202.276" width="448.9" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x="448.594" y="202.276" width="448.9" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="673.044" y="221.276">LotteryWebConfiguration</text>
+    <rect style="fill: #ffcd99" x="448.594" y="230.276" width="448.9" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x="448.594" y="230.276" width="448.9" height="8"/>
+    <rect style="fill: #ffcd99" x="448.594" y="238.276" width="448.9" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x="448.594" y="238.276" width="448.9" height="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="451.094" y="252.276">+addViewController(registry:ViewControllerRegistry): void</text>
+  </g>
+  <g>
+    <rect style="fill: #ffcd99" x="447.406" y="89.301" width="279.5" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x="447.406" y="89.301" width="279.5" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="587.156" y="108.301">WebSecurityConfiguration</text>
+    <rect style="fill: #ffcd99" x="447.406" y="117.301" width="279.5" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x="447.406" y="117.301" width="279.5" height="8"/>
+    <rect style="fill: #ffcd99" x="447.406" y="125.301" width="279.5" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x="447.406" y="125.301" width="279.5" height="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="449.906" y="139.301">+configure(http:HttpSecurity): void</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="348.091,117.315 392.503,117.315 392.503,230.276 448.087,230.276 "/>
+    <polygon style="fill: #ffffff" points="322.92,117.315 336.92,112.515 350.92,117.315 336.92,122.115 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="322.92,117.315 336.92,112.515 350.92,117.315 336.92,122.115 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="394.503" y="170.795"></text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="354.92" y="114.315"></text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:end;font-family:monospace;font-style:normal;font-weight:normal" x="444.087" y="227.276"></text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="348.091,117.315 391.909,117.315 391.909,117.301 446.897,117.301 "/>
+    <polygon style="fill: #ffffff" points="322.92,117.315 336.92,112.515 350.92,117.315 336.92,122.115 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="322.92,117.315 336.92,112.515 350.92,117.315 336.92,122.115 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="393.909" y="114.308"></text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="354.92" y="114.315"></text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:end;font-family:monospace;font-style:normal;font-weight:normal" x="442.897" y="114.301"></text>
+  </g>
+  <g>
+    <rect style="fill: #add8e6" x="51.9972" y="368.196" width="434.243" height="242.532"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x="51.9972" y="368.196" width="434.243" height="242.532"/>
+    <rect style="fill: #add8e6" x="51.9972" y="348.196" width="50.2" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x="51.9972" y="348.196" width="50.2" height="20"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="53.9972" y="363.196">Spring</text>
+  </g>
+  <g>
+    <rect style="fill: #ffcd99" x="87.3148" y="398.65" width="171.35" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x="87.3148" y="398.65" width="171.35" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="172.99" y="417.65">SpringApplication</text>
+  </g>
+  <g>
+    <rect style="fill: #ffcd99" x="90.6784" y="450.786" width="219.6" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x="90.6784" y="450.786" width="219.6" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="200.478" y="469.786">ViewControllerRegistry</text>
+  </g>
+  <g>
+    <rect style="fill: #ffcd99" x="92.3602" y="507.966" width="124.9" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x="92.3602" y="507.966" width="124.9" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="154.81" y="526.966">HttpSecurity</text>
+  </g>
+  <g>
+    <rect style="fill: #90ee90" x="92.3602" y="560.102" width="181.9" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x="92.3602" y="560.102" width="181.9" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="183.31" y="579.102">WebMvcConfigurer</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="292.496,574.102 954,574.102 954,117.301 727.32,117.301 "/>
+    <polygon style="fill: #ffffff" points="292.496,566.102 276.496,574.102 292.496,582.102 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="292.496,566.102 276.496,574.102 292.496,582.102 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="764.954,373.636 764.954,338.278 673.044,338.278 673.044,258.766 "/>
+    <polygon style="fill: #ffffff" points="756.954,373.636 764.954,389.636 772.954,373.636 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="756.954,373.636 764.954,389.636 772.954,373.636 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="727.409,117.301 996,117.301 996,464.786 316.723,464.786 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="329.371,459.786 313.371,464.786 329.371,469.786 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="322.92,137.315 343.92,137.315 343.92,412.65 265.37,412.65 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="278.017,407.65 262.017,412.65 278.017,417.65 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="345.92" y="271.982">&lt;&lt;use&gt;&gt;</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="898.003,230.276 996,230.276 996,521.966 224.467,521.966 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="237.115,516.966 221.115,521.966 237.115,526.966 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="998" y="373.121">&lt;&lt;use&gt;&gt;</text>
+  </g>
+</svg>

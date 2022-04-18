@@ -1,0 +1,78 @@
+= Protokoll Gruppe 08
+
+Treffen am 01.12.2021
+
+Ort:      Discord +
+Beginn:   11:50 Uhr +
+Ende:     12:45 Uhr
+
+__Schriftführer:__ Nick Ruider
+
+*Nächstes Treffen:* +
+08.12.2021, 14:00 Uhr, Discord
+
+__Teilnehmer:__
+
+- André (Tutor)
+- Hannes
+- Jing
+- Meng
+- Nick
+- Shiyue
+- Ziyi
+
+== Bemerkungen
+- Zwischenpräsentation gehalten
+- Pflichtenheft: Wohnadresse -> E-Mail-Adresse
+
+== Retrospektive des letzten Sprints
+*Issue referenziert die Issue ID von GitHub*
+
+[option="headers"]
+|===
+|Issue |Titel |Beschreibung |Verantwortlicher |Status
+|[F0002] |Registrierung validieren |siehe Pflichtenheft |Hannes |abgeschlossen
+|[F0004] |Konto einsehen |siehe Pflichtenheft |Hannes |abgeschlossen
+|[F0006] |Verfügbare Tippscheine einsehen |siehe Pflichtenheft |Nick |abgeschlossen
+|[F0007] |Tippschein erwerben |siehe Pflichtenheft |Meng, Nick |abgeschlossen
+|[F0008] |Tippschein ausfüllen |siehe Pflichtenheft |Meng, Nick |abgeschlossen
+|[F0011] |Erworbene Tippscheine einsehen |siehe Pflichtenheft |Meng, Nick |abgeschlossen
+|[F0012] |Finanzen einsehen |siehe Pflichtenheft |Shiyue |abgeschlossen
+|[F0013] |Geld abbuchen |siehe Pflichtenheft |Shiyue |abgeschlossen
+|[F0014] |Geld auszahlen |siehe Pflichtenheft |Shiyue |abgeschlossen
+|[F0015] |Gewinngemeinschaft gründen |siehe Pflichtenheft |Jing |abgeschlossen
+|[F0016] |Gewinngemeinschaft beitreten |siehe Pflichtenheft |Jing |abgeschlossen
+|[F0022] |Admin Übersicht abgegebene Wetten |siehe Pflichtenheft |Ziyi |abgeschlossen
+|[F0023] |Durchführung Ziehung |siehe Pflichtenheft |Nick, Ziyi |abgeschlossen
+|===
+
+== Aktueller Stand / Kritik
+- Prototyp mit Basisfunktionalitäten gut
+- ausführliche Präsentationskritik in separatem Teil
+
+=== Präsentationskritik
+- erwähnen, dass wir Gruppe 8 sind
+- nur ein Klassendiagramm zeigen (repetitiv)
+- Prozess von aUML -> dUML zeigen
+- Probleme und deren Lösung mit zukünfigen Möglichkeiten vorstellen
+- Validierung der Anwendung nicht präsentationsrelevant
+- genauer auf 20 Minuten kommen
+
+== Planung des nächsten Sprints
+*Issue referenziert die Issue ID von GitHub*
+
+[option="headers"]
+|===
+|Issue |Titel |Beschreibung |Verantwortlicher |Status
+|[F0005] |Konto bearbeiten |siehe Pflichtenheft |Hannes |offen
+|[F0009] |Tippschein ändern |siehe Pflichtenheft |Meng, Nick |offen
+|[F0010] |Dauertippschein erwerben |siehe Pflichtenheft |Meng |offen
+|[F0017] |Gewinngemeinschaft Tipp abgeben |siehe Pflichtenheft |Jing, Meng, Nick |offen
+|[F0018] |Gewinngemeinschaft Mitglied entfernen |siehe Pflichtenheft |Jing |offen
+|[F0019] |Mitteilungen einsehen |siehe Pflichtenheft | |offen
+|[F0020] |Mitteilung bei unzureichender Deckung |siehe Pflichtenheft | |offen
+|[F0021] |Admin Einsicht finanzieller Status |siehe Pflichtenheft |Ziyi |offen
+|[F0024] |Auswertung Ziehung/Spiel |siehe Pflichtenheft |Ziyi |offen
+|[F0025] |Überweisung Gewinne |siehe Pflichtenheft |Nick |offen
+|[F0033] |Kontobearbeitung validieren |siehe Pflichtenheft |Hannes |offen
+|===

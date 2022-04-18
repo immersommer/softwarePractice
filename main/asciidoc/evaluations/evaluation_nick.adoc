@@ -1,0 +1,40 @@
+= Persönliches Feedback eines Teammitgliedes des Softwarepraktikums 2021/22
+
+**Von:**
+Nick Ruider
+
+**Gruppe:**
+swt21w08
+
+== Was habe ich gelernt / was habe ich nicht gelernt?
+
+* Arbeit an einem größeren Software-Projekt
+* Arbeit in einer Gruppe
+* Einarbeiten in Frameworks
+** bekanntes Framework wie Spring (groß, dafür viel online zu finden)
+** kleines Framework wie Salespoint (Arbeit nur mit Javadoc)
+
+
+== Welche Erfahrungen habe ich mit der Zusammenarbeit im Team gemacht?
+
+* Arbeitsaufteilung ist wichtig
+* schwierig für mich: möchte immer so viel wie möglich machen, deswegen häufig zu viel in anderen Gebieten gemacht
+
+== Welche Erfahrungen habe ich bei der Wiederverwendung von Bibliotheken/Frameworks (insbesondere SalesPoint) gemacht?
+
+* Spring als großes Framework zu nutzen war super
+* Salespoint teilweise etwas erzwungen im Kontext unserer Lotterieaufgabe, nicht so gut nutzbar wie erhofft (Bsp.: Order für Wetten nicht wirklich geeignet)
+
+== Welche Vorschläge zur weiteren Verbesserung des Softwarepraktikums gibt es?
+
+* JavaScript sollte nutzbar sein, um mögliche Spielereien zu ermöglichen (siehe bei uns, Lotterieeingabe)
+** jedoch sollte klar sein, dass die Datenübergabe von HTML -> Controller mit Spring gemacht werden soll, meiner Meinung nach bessere Regelung für die Studierenden
+
+== Feedback für den Tutor
+
+* gute Handhabung des Projektes: bei Fragen immer zur Verfügung, gibt aber freie Hand für Arbeit
+* manchmal war Feedback im Wochenmeeting relativ kurz (verständlich, trotzdem wollte ich es anmerken)
+
+== Sonstiges und Anmerkungen
+
+-

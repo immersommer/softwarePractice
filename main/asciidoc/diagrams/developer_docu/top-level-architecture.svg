@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="378px" preserveAspectRatio="none" style="width:770px;height:378px;background:#FFFFFF;" version="1.1" viewBox="0 0 770 378" width="770px" zoomAndPan="magnify"><defs/><g><!--MD5=[0229445006da46559c106143119e9be7]
+cluster lottery--><rect fill="#FFFFFF" height="365" style="stroke:#000000;stroke-width:1.5;" width="576" x="97" y="7"/><rect fill="#FFFFFF" height="10" style="stroke:#000000;stroke-width:1.5;" width="15" x="653" y="12"/><rect fill="#FFFFFF" height="2" style="stroke:#000000;stroke-width:1.5;" width="4" x="651" y="14"/><rect fill="#FFFFFF" height="2" style="stroke:#000000;stroke-width:1.5;" width="4" x="651" y="18"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="99" x="335.5" y="32.9951">«component»</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="56" x="357" y="49.292">lottery</text><!--MD5=[8fc3522a43f8c7199df5e09e5bb0188e]
+entity user--><rect fill="#ADD8E6" height="62.5938" style="stroke:#000000;stroke-width:1.5;" width="139" x="113" y="164.5"/><rect fill="#ADD8E6" height="10" style="stroke:#000000;stroke-width:1.5;" width="15" x="232" y="169.5"/><rect fill="#ADD8E6" height="2" style="stroke:#000000;stroke-width:1.5;" width="4" x="230" y="171.5"/><rect fill="#ADD8E6" height="2" style="stroke:#000000;stroke-width:1.5;" width="4" x="230" y="175.5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="99" x="128" y="197.4951">«component»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="30" x="162.5" y="213.792">user</text><!--MD5=[f687954eaad6e4cc089d50ae0ac13b41]
+entity comm--><rect fill="#ADD8E6" height="62.5938" style="stroke:#000000;stroke-width:1.5;" width="139" x="113" y="58.5"/><rect fill="#ADD8E6" height="10" style="stroke:#000000;stroke-width:1.5;" width="15" x="232" y="63.5"/><rect fill="#ADD8E6" height="2" style="stroke:#000000;stroke-width:1.5;" width="4" x="230" y="65.5"/><rect fill="#ADD8E6" height="2" style="stroke:#000000;stroke-width:1.5;" width="4" x="230" y="69.5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="99" x="128" y="91.4951">«component»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="81" x="137" y="107.792">community</text><!--MD5=[4999b8b7dfacd7609e68d79160a7c7ea]
+entity bet--><rect fill="#ADD8E6" height="62.5938" style="stroke:#000000;stroke-width:1.5;" width="139" x="315.5" y="58.5"/><rect fill="#ADD8E6" height="10" style="stroke:#000000;stroke-width:1.5;" width="15" x="434.5" y="63.5"/><rect fill="#ADD8E6" height="2" style="stroke:#000000;stroke-width:1.5;" width="4" x="432.5" y="65.5"/><rect fill="#ADD8E6" height="2" style="stroke:#000000;stroke-width:1.5;" width="4" x="432.5" y="69.5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="99" x="330.5" y="91.4951">«component»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="55" x="352.5" y="107.792">betting</text><!--MD5=[ffcf2ffbf228462c7bfbe1254d8c9043]
+entity mana--><rect fill="#ADD8E6" height="62.5938" style="stroke:#000000;stroke-width:1.5;" width="139" x="518" y="75.5"/><rect fill="#ADD8E6" height="10" style="stroke:#000000;stroke-width:1.5;" width="15" x="637" y="80.5"/><rect fill="#ADD8E6" height="2" style="stroke:#000000;stroke-width:1.5;" width="4" x="635" y="82.5"/><rect fill="#ADD8E6" height="2" style="stroke:#000000;stroke-width:1.5;" width="4" x="635" y="86.5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="99" x="533" y="108.4951">«component»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="44" x="560.5" y="124.792">admin</text><!--MD5=[3f2da0f08a6859463070f8770e03a359]
+entity fina--><rect fill="#ADD8E6" height="62.5938" style="stroke:#000000;stroke-width:1.5;" width="139" x="315.5" y="156.5"/><rect fill="#ADD8E6" height="10" style="stroke:#000000;stroke-width:1.5;" width="15" x="434.5" y="161.5"/><rect fill="#ADD8E6" height="2" style="stroke:#000000;stroke-width:1.5;" width="4" x="432.5" y="163.5"/><rect fill="#ADD8E6" height="2" style="stroke:#000000;stroke-width:1.5;" width="4" x="432.5" y="167.5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="99" x="330.5" y="189.4951">«component»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="53" x="353.5" y="205.792">finance</text><!--MD5=[a6bee6a27156e36ba3c523a51fc6dcbb]
+entity spring--><rect fill="#ADD8E6" height="62.5938" style="stroke:#000000;stroke-width:1.5;" width="146" x="312" y="292.5"/><rect fill="#ADD8E6" height="10" style="stroke:#000000;stroke-width:1.5;" width="15" x="438" y="297.5"/><rect fill="#ADD8E6" height="2" style="stroke:#000000;stroke-width:1.5;" width="4" x="436" y="299.5"/><rect fill="#ADD8E6" height="2" style="stroke:#000000;stroke-width:1.5;" width="4" x="436" y="303.5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="99" x="330.5" y="325.4951">«component»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="106" x="327" y="341.792">SpringSecurity</text><!--MD5=[baad76b5d4dae6ce76ccc0474d000b79]
+entity sales--><rect fill="#ADD8E6" height="62.5938" style="stroke:#000000;stroke-width:1.5;" width="139" x="518" y="207.5"/><rect fill="#ADD8E6" height="10" style="stroke:#000000;stroke-width:1.5;" width="15" x="637" y="212.5"/><rect fill="#ADD8E6" height="2" style="stroke:#000000;stroke-width:1.5;" width="4" x="635" y="214.5"/><rect fill="#ADD8E6" height="2" style="stroke:#000000;stroke-width:1.5;" width="4" x="635" y="218.5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="99" x="533" y="240.4951">«component»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="76" x="544.5" y="256.792">Salespoint</text><!--MD5=[fee662a292a0353a69bd162820bae93b]
+entity User--><ellipse cx="29.5" cy="60.5" fill="#FFFFFF" rx="8" ry="8" style="stroke:#000000;stroke-width:1.5;"/><path d="M29.5,68.5 L29.5,95.5 M16.5,76.5 L42.5,76.5 M29.5,95.5 L16.5,110.5 M29.5,95.5 L42.5,110.5 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="31" x="14" y="125.9951">User</text><!--MD5=[acb64d932532ebbc809d9a993fb5ccd9]
+entity Visitor--><ellipse cx="29.5" cy="173.5" fill="#FFFFFF" rx="8" ry="8" style="stroke:#000000;stroke-width:1.5;"/><path d="M29.5,181.5 L29.5,208.5 M16.5,189.5 L42.5,189.5 M29.5,208.5 L16.5,223.5 M29.5,208.5 L42.5,223.5 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="47" x="6" y="238.9951">Visitor</text><!--MD5=[97ab183161fd5d1db7fba7485cf76add]
+entity Admin--><ellipse cx="740" cy="77.5" fill="#FFFFFF" rx="8" ry="8" style="stroke:#000000;stroke-width:1.5;"/><path d="M740,85.5 L740,112.5 M727,93.5 L753,93.5 M740,112.5 L727,127.5 M740,112.5 L753,127.5 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="46" x="717" y="142.9951">Admin</text><!--MD5=[7227ed9b366f5ee97d2178a956cd7862]
+link Visitor to user--><path d="M53.1062,201.952 C67.8203,201.27 87.9208,200.338 107.849,199.414 " fill="none" id="Visitor-to-user" style="stroke:#000000;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><rect fill="#FFFFFF" height="10" style="stroke:#000000;stroke-width:1.5;" width="10" x="107.909" y="194.18"/><!--MD5=[3ef0b7b4bf5f1bfa24f59dc12f4d114b]
+link User to user--><path d="M45.4088,103.523 C56.9506,113.732 73.5261,127.842 89,139 C99.6706,146.695 111.392,154.427 122.801,161.606 " fill="none" id="User-to-user" style="stroke:#000000;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><rect fill="#FFFFFF" height="10" style="stroke:#000000;stroke-width:1.5;" width="10" x="122.324" y="159.434"/><!--MD5=[c7722a5af3833d4e2500919384cf4e4e]
+link User to comm--><path d="M45.2534,90 C60.0798,90 84.081,90 107.839,90 " fill="none" id="User-to-comm" style="stroke:#000000;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><rect fill="#FFFFFF" height="10" style="stroke:#000000;stroke-width:1.5;" width="10" x="107.902" y="85"/><!--MD5=[fbd922a630d54ce4ea4864779068b6e3]
+link user to spring--><path d="M237.455,230.445 C266.065,248.71 301.121,271.09 329.772,289.3807 " fill="none" id="user-spring" style="stroke:#000000;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><rect fill="#FFFFFF" height="10" style="stroke:#000000;stroke-width:1.5;" width="10" x="329.313" y="287.2799"/><rect fill="#FFFFFF" height="10" style="stroke:#000000;stroke-width:1.5;" width="10" x="228.062" y="222.64"/><!--MD5=[5b31fbb2ac5576e46d45047cf2afdb39]
+link user to sales--><path d="M257.217,223.699 C274.913,229.176 293.927,234.119 312,237 C379.249,247.72 456.946,247.096 512.477,244.452 " fill="none" id="user-sales" style="stroke:#000000;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><rect fill="#FFFFFF" height="10" style="stroke:#000000;stroke-width:1.5;" width="10" x="512.78" y="239.19"/><rect fill="#FFFFFF" height="10" style="stroke:#000000;stroke-width:1.5;" width="10" x="247.262" y="217.141"/><!--MD5=[b6bf63f423e2dfb3fd8ea8b486af756c]
+link user to bet--><path d="M247.661,162.08 C270.693,149.903 296.658,136.176 319.702,123.993 " fill="none" id="user-bet" style="stroke:#000000;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><rect fill="#FFFFFF" height="10" style="stroke:#000000;stroke-width:1.5;" width="10" x="319.27" y="116.578"/><rect fill="#FFFFFF" height="10" style="stroke:#000000;stroke-width:1.5;" width="10" x="238.114" y="159.483"/><!--MD5=[039e0a61be14a0e44993c71fd548e881]
+link comm to bet--><path d="M257.521,90 C274.677,90 292.934,90 310.085,90 " fill="none" id="comm-bet" style="stroke:#000000;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><rect fill="#FFFFFF" height="10" style="stroke:#000000;stroke-width:1.5;" width="10" x="310.37" y="85"/><rect fill="#FFFFFF" height="10" style="stroke:#000000;stroke-width:1.5;" width="10" x="247.22" y="85"/><!--MD5=[6a8ba6aae828b254140680188a0c2e40]
+link user to fina--><path d="M257.521,193.047 C274.677,192.362 292.934,191.634 310.085,190.949 " fill="none" id="user-fina" style="stroke:#000000;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><rect fill="#FFFFFF" height="10" style="stroke:#000000;stroke-width:1.5;" width="10" x="310.37" y="185.738"/><rect fill="#FFFFFF" height="10" style="stroke:#000000;stroke-width:1.5;" width="10" x="247.22" y="188.258"/><!--MD5=[000aeb09b125bdc364b0675e92cd4133]
+link bet to sales--><path d="M437.8,124.67 C444.64,129.418 451.522,134.282 458,139 C486.838,160.001 518.471,184.598 543.135,204.142 " fill="none" id="bet-sales" style="stroke:#000000;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><rect fill="#FFFFFF" height="10" style="stroke:#000000;stroke-width:1.5;" width="10" x="542.344" y="202.482"/><rect fill="#FFFFFF" height="10" style="stroke:#000000;stroke-width:1.5;" width="10" x="428.55" y="116.731"/><!--MD5=[576e6069bde283868582f29c014fd38f]
+link bet to mana--><path d="M460.021,96.276 C477.177,97.731 495.434,99.279 512.585,100.733 " fill="none" id="bet-mana" style="stroke:#000000;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><rect fill="#FFFFFF" height="10" style="stroke:#000000;stroke-width:1.5;" width="10" x="512.87" y="96.181"/><rect fill="#FFFFFF" height="10" style="stroke:#000000;stroke-width:1.5;" width="10" x="449.72" y="90.827"/><!--MD5=[ee5f971feab3220f6f2bafcfd9c5e16c]
+link fina to mana--><path d="M459.536,158.292 C476.966,151.251 495.558,143.74 512.987,136.699 " fill="none" id="fina-mana" style="stroke:#000000;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><rect fill="#FFFFFF" height="10" style="stroke:#000000;stroke-width:1.5;" width="10" x="512.87" y="129.726"/><rect fill="#FFFFFF" height="10" style="stroke:#000000;stroke-width:1.5;" width="10" x="449.72" y="155.238"/><!--MD5=[d1480bd57d3da56f218df34482822106]
+reverse link mana to Admin--><path d="M662.205,107 C682.138,107 702.215,107 716.84,107 " fill="none" id="mana-backto-Admin" style="stroke:#000000;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><rect fill="#FFFFFF" height="10" style="stroke:#000000;stroke-width:1.5;" width="10" x="652.144" y="102"/><!--MD5=[f1b6936fbad354ab89cbebf6fc01f663]
+@startuml
+left to right direction
+skinparam BackgroundColor White
+skinparam shadowing false
+skinparam component{
+ Bordercolor Black
+ Componentstyle uml2
+ BackgroundColor #ADD8E6
+ Arrowcolor Black
+}
+skinparam actor{
+ Bordercolor Black
+ Componentstyle uml2
+ BackgroundColor White
+ Arrowcolor Black
+}
+
+actor User
+actor Visitor
+actor Admin
+component lottery <<component>> #white{
+ component user<<component>>
+ component community <<component>> as comm
+ component betting <<component>> as bet
+ component admin <<component>> as mana
+ component finance <<component>> as fina
+ component SpringSecurity <<component>> as spring
+ component Salespoint <<component>> as sales
+}
+
+Visitor ..# user
+User ..# user
+User ..# comm
+user#..# spring
+user #..# sales
+user #..# bet
+comm #..# bet
+user #..# fina
+bet #..# sales
+bet #..# mana
+fina #..# mana
+mana #.. Admin
+@enduml
+
+PlantUML version 1.2021.15beta8(Unknown compile time)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

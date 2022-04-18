@@ -1,0 +1,84 @@
+= Protokoll Gruppe 08
+
+Treffen am 24.11.2021
+
+Ort:      Discord +
+Beginn:   14:00 Uhr +
+Ende:     14:45 Uhr
+
+__Schriftführer:__ Nick Ruider
+
+*Nächstes Treffen:* +
+01.12.2021, 11:50 Uhr, Discord
+
+__Teilnehmer:__
+
+- André (Tutor)
+- Hannes
+- Jing
+- Meng
+- Nick
+- Shiyue
+- Ziyi
+
+== Bemerkungen
+- nächste Woche: Zwischenpräsentation
+- Reduzierung aller Issues auf Basic-Functions
+
+== Retrospektive des letzten Sprints
+*Issue referenziert die Issue ID von GitHub*
+
+[option="headers"]
+|===
+|Issue |Titel |Beschreibung |Verantwortlicher |Status
+|[F0001] |Registrierung |siehe Pflichtenheft |Hannes |offen
+|[F0002] |Registrierung validieren |siehe Pflichtenheft |Hannes |offen
+|[F0003] |Anmeldung |siehe Pflichtenheft |Hannes |offen
+|[F0004] |Konto einsehen |siehe Pflichtenheft |Hannes |offen
+|[F0005] |Konto bearbeiten |siehe Pflichtenheft |Hannes |offen
+|[F0006] |Verfügbare Tippscheine einsehen |siehe Pflichtenheft |Nick |offen
+|[F0007] |Tippschein erwerben |siehe Pflichtenheft |Meng, Nick |offen
+|[F0008] |Tippschein ausfüllen |siehe Pflichtenheft |Meng, Nick |offen
+|[F0009] |Tippschein ändern |siehe Pflichtenheft |Meng, Nick |offen
+|[F0010] |Dauertippschein erwerben |siehe Pflichtenheft |Meng |offen
+|[F0011] |Erworbene Tippscheine einsehen |siehe Pflichtenheft |Meng, Nick |offen
+|[F0012] |Finanzen einsehen |siehe Pflichtenheft |Shiyue |offen
+|[F0013] |Geld abbuchen |siehe Pflichtenheft |Shiyue |offen
+|[F0014] |Geld auszahlen |siehe Pflichtenheft |Shiyue |offen
+|[F0015] |Gewinngemeinschaft gründen |siehe Pflichtenheft |Jing |offen
+|[F0016] |Gewinngemeinschaft beitreten |siehe Pflichtenheft |Jing |offen
+|[F0017] |Gewinngemeinschaft Tipp abgeben |siehe Pflichtenheft |Jing, Meng, Nick |offen
+|[F0018] |Gewinngemeinschaft Mitglied entfernen |siehe Pflichtenheft |Jing |offen
+|[F0019] |Mitteilungen einsehen |siehe Pflichtenheft | |offen
+|[F0020] |Mitteilung bei unzureichender Deckung |siehe Pflichtenheft | |offen
+|[F0021] |Admin Einsicht finanzieller Status |siehe Pflichtenheft |Ziyi |offen
+|[F0022] |Admin Übersicht abgegebene Wetten |siehe Pflichtenheft |Ziyi |offen
+|[F0023] |Durchführung Ziehung |siehe Pflichtenheft |Nick, Ziyi |offen
+|[F0024] |Auswertung Ziehung/Spiel |siehe Pflichtenheft |Nick, Ziyi |offen
+|[F0025] |Überweisung Gewinne |siehe Pflichtenheft |Ziyi |offen
+|[F0033] |Kontobearbeitung validieren |siehe Pflichtenheft |Hannes |offen
+|===
+
+== Aktueller Stand / Kritik
+-
+
+== Planung des nächsten Sprints
+*Issue referenziert die Issue ID von GitHub*
+
+[option="headers"]
+|===
+|Issue |Titel |Beschreibung |Verantwortlicher |Status
+|[F0002] |Registrierung validieren |siehe Pflichtenheft |Hannes |offen
+|[F0004] |Konto einsehen |siehe Pflichtenheft |Hannes |offen
+|[F0006] |Verfügbare Tippscheine einsehen |siehe Pflichtenheft |Nick |offen
+|[F0007] |Tippschein erwerben |siehe Pflichtenheft |Meng, Nick |offen
+|[F0008] |Tippschein ausfüllen |siehe Pflichtenheft |Meng, Nick |offen
+|[F0011] |Erworbene Tippscheine einsehen |siehe Pflichtenheft |Meng, Nick |offen
+|[F0012] |Finanzen einsehen |siehe Pflichtenheft |Shiyue |offen
+|[F0013] |Geld abbuchen |siehe Pflichtenheft |Shiyue |offen
+|[F0014] |Geld auszahlen |siehe Pflichtenheft |Shiyue |offen
+|[F0015] |Gewinngemeinschaft gründen |siehe Pflichtenheft |Jing |offen
+|[F0016] |Gewinngemeinschaft beitreten |siehe Pflichtenheft |Jing |offen
+|[F0022] |Admin Übersicht abgegebene Wetten |siehe Pflichtenheft |Ziyi |offen
+|[F0023] |Durchführung Ziehung |siehe Pflichtenheft |Nick, Ziyi |offen
+|===

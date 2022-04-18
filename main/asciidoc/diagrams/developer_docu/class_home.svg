@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="54cm" height="45cm" viewBox="-2 -21 1075 898" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: #ffffff" x="-0.233998" y="0.867926" width="1072.71" height="875.357"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x="-0.233998" y="0.867926" width="1072.71" height="875.357"/>
+    <rect style="fill: #ffffff" x="-0.233998" y="-19.1321" width="158" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x="-0.233998" y="-19.1321" width="158" height="20"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1.766" y="-4.13207">package lottery.home</text>
+  </g>
+  <g>
+    <rect style="fill: #add8e6" x="73.3752" y="557.982" width="226.615" height="200.864"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x="73.3752" y="557.982" width="226.615" height="200.864"/>
+    <rect style="fill: #add8e6" x="73.3752" y="537.982" width="50.2" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x="73.3752" y="537.982" width="50.2" height="20"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="75.3752" y="552.982">Spring</text>
+  </g>
+  <g>
+    <rect style="fill: #add8e6" x="503.961" y="57.3967" width="526.087" height="762.26"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x="503.961" y="57.3967" width="526.087" height="762.26"/>
+    <rect style="fill: #add8e6" x="503.961" y="37.3967" width="158" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x="503.961" y="37.3967" width="158" height="20"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="505.961" y="52.3967">lottery.home.message</text>
+  </g>
+  <g>
+    <rect style="fill: #ffcd99" x="529.466" y="390.639" width="464.3" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="529.466" y="390.639" width="464.3" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="761.616" y="409.639">MessageManagement</text>
+    <rect style="fill: #ffcd99" x="529.466" y="418.639" width="464.3" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="529.466" y="418.639" width="464.3" height="8"/>
+    <rect style="fill: #ffcd99" x="529.466" y="426.639" width="464.3" height="212"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="529.466" y="426.639" width="464.3" height="212"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="532.466" y="440.639">+MessageManagement(entries:MessageRepository,</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="532.466" y="456.639">                   communityManagement:CommunityManagement,</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="532.466" y="472.639">                   userManagement:UserManagement)</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="532.466" y="488.639">+save(entry:Message): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="532.466" y="504.639">+checkTenMessages(user:String): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="532.466" y="520.639">+fineMessageCount(user:String): int</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="532.466" y="536.639">+messageCount(user:String): int</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="532.466" y="552.639">+newMessages(user:String): boolean</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="532.466" y="568.639">+findNotReadByUser(user:String): Streamable&lt;Message&gt;</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="532.466" y="584.639">+findReadByUser(user:String): Streamable&lt;Message&gt;</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="532.466" y="600.639">+findEntriesByUser(user:String): Streamable&lt;Message&gt;</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="532.466" y="616.639">+findAll(): Streamable&lt;Message&gt;</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="532.466" y="632.639">+deleteMessage(messageId:Long): void</text>
+  </g>
+  <g>
+    <rect style="fill: #add8e6" x="25.9576" y="44.6688" width="451.133" height="306.884"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="25.9576" y="44.6688" width="451.133" height="306.884"/>
+    <rect style="fill: #add8e6" x="25.9576" y="24.6688" width="96.4" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="25.9576" y="24.6688" width="96.4" height="20"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="27.9576" y="39.6688">lottery.home</text>
+  </g>
+  <g>
+    <rect style="fill: #ffcd99" x="42.1694" y="89.8828" width="418.1" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x="42.1694" y="89.8828" width="418.1" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="251.219" y="108.883">HomeController</text>
+    <rect style="fill: #ffcd99" x="42.1694" y="117.883" width="418.1" height="68"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x="42.1694" y="117.883" width="418.1" height="68"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="44.6694" y="131.883">-bettingManagement: BettingManagement</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="44.6694" y="147.883">-financeManagement: FinanceManagement</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="44.6694" y="163.883">-messageManagement: MessageManagement</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="44.6694" y="179.883">-userManagement: UserManagement</text>
+    <rect style="fill: #ffcd99" x="42.1694" y="185.883" width="418.1" height="116"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x="42.1694" y="185.883" width="418.1" height="116"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="44.6694" y="199.883">+AdminController(bettingManagement:Management,</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="44.6694" y="215.883">                 financeManagement:FinanceManagement,</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="44.6694" y="231.883">                 messageManagement:MessageManagement,</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="44.6694" y="247.883">                 userManagement:UserManagement)</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="44.6694" y="263.883">+home(user:UserAccount,model:Model): String</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="44.6694" y="279.883">+message(user:UserAccount,model:Model): String</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="44.6694" y="295.883">+readMessage(user:UserAccount): String</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="251.219,327.054 251.219,369.937 761.616,369.937 761.616,390.639 "/>
+    <polygon style="fill: #ffffff" points="251.219,301.883 256.019,315.883 251.219,329.883 246.419,315.883 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="251.219,301.883 256.019,315.883 251.219,329.883 246.419,315.883 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="765.616" y="370.639"> -messageManagement</text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="765.616" y="386.639">1</text>
+  </g>
+  <g>
+    <rect style="fill: #90ee90" x="556.287" y="710.762" width="410.4" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="556.287" y="710.762" width="410.4" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="761.487" y="729.762">MessageRepository</text>
+    <rect style="fill: #90ee90" x="556.287" y="738.762" width="410.4" height="52"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="556.287" y="738.762" width="410.4" height="52"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="559.287" y="752.762">+findByUser(user:String): Streamable&lt;Message&gt;</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="559.287" y="768.762">+findByUserRead(user:String): Streamable&lt;Message&gt;</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="559.287" y="784.762">+findByUserNotRead(user:String): Streamable&lt;Message&gt;</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="761.616,664.816 761.616,676.045 761.487,676.045 761.487,709.828 "/>
+    <polygon style="fill: #ffffff" points="761.616,639.644 766.416,653.644 761.616,667.644 756.816,653.644 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="761.616,639.644 766.416,653.644 761.616,667.644 756.816,653.644 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="765.487" y="689.828"> -messageRepository</text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="765.487" y="705.828">1</text>
+  </g>
+  <g>
+    <rect style="fill: #ffcd99" x="530.831" y="74.3672" width="418.1" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="530.831" y="74.3672" width="418.1" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="739.881" y="93.3672">Message</text>
+    <rect style="fill: #ffcd99" x="530.831" y="102.367" width="418.1" height="100"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="530.831" y="102.367" width="418.1" height="100"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="533.831" y="116.367">-id: long</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="533.831" y="132.367">-user: String</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="533.831" y="148.367">-topic: String</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="533.831" y="164.367">-detail: String</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="533.831" y="180.367">-date: LocalDateTime</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="533.831" y="196.367">-read: boolean = false</text>
+    <rect style="fill: #ffcd99" x="530.831" y="202.367" width="418.1" height="148"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="530.831" y="202.367" width="418.1" height="148"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="533.831" y="216.367">+Message(user:UserAccount,topic:String,detail:String,</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="533.831" y="232.367">         date:LocalDateTime)</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="533.831" y="248.367">+getId(): long</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="533.831" y="264.367">+getUser(): String</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="533.831" y="280.367">+getTopic(): String</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="533.831" y="296.367">+getDetail(): String</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="533.831" y="312.367">+getDate(): String</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="533.831" y="328.367">+getRead(): boolean</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="533.831" y="344.367">+setRead(): void</text>
+  </g>
+  <g>
+    <rect style="fill: #90ee90" x="106.355" y="691.116" width="150.1" height="44"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="106.355" y="691.116" width="150.1" height="44"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="181.405" y="707.116">&lt;&lt;interface&gt;&gt;</text>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="181.405" y="726.116">CrudRepository</text>
+    <rect style="fill: #90ee90" x="210.455" y="661.116" width="54" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 6; stroke: #000000" x="210.455" y="661.116" width="54" height="36"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="216.455" y="675.116">T:</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="216.455" y="691.116">ID:</text>
+  </g>
+  <g>
+    <rect style="fill: #90ee90" x="105.793" y="580.738" width="110.1" height="44"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="105.793" y="580.738" width="110.1" height="44"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="160.843" y="596.738">&lt;&lt;interface&gt;&gt;</text>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="160.843" y="615.738">Model</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="42.1694,259.883 15.7201,259.883 15.7201,602.738 99.0875,602.738 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="86.4401,607.738 102.44,602.738 86.4401,597.738 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="17.7201" y="431.31">&lt;&lt;use&gt;&gt;</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="555.282,750.762 321.999,750.762 321.999,713.116 263.161,713.116 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="275.808,708.116 259.808,713.116 275.808,718.116 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="323.999" y="728.939">&lt;&lt;bind&gt;&gt;</text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="323.999" y="744.939">&lt;T-&gt;Message, ID-&gt;Long&gt;</text>
+  </g>
+</svg>

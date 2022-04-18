@@ -1,0 +1,54 @@
+= Protokoll Gruppe 08
+
+Treffen am 20.10.2021
+
+Ort:      Discord +
+Beginn:   11:30 Uhr +
+Ende:     12:30 Uhr
+
+__Schriftführer:__ Nick Ruider
+
+*Nächstes Treffen:* +
+27.10.2021, 11:30 Uhr, Discord
+
+__Teilnehmer:__
+
+- André (Tutor)
+- Hannes
+- Jing
+- Meng
+- Nick
+- Shiyue
+- Ziyi
+
+== Bemerkungen
+- UML-Programm der Gruppe: PlantUML
+
+
+== Retrospektive des letzten Sprints
+*Issue referenziert die Issue ID von GitHub*
+
+[option="headers"]
+|===
+|Issue |Titel |Beschreibung |Verantwortlicher |Status
+|- |Einarbeitung |Guestbook anschauen |alle                |abgeschlossen
+|- |GitHub Accounts |Schicken an Tutor, Projekt beitreten |alle |abgeschlossen
+|===
+
+== Planung des nächsten Sprints
+*Issue referenziert die Issue ID von GitHub*
+
+// See http://asciidoctor.org/docs/user-manual/=tables
+[option="headers"]
+|===
+|Issue |Titel |Beschreibung |Verantwortlicher |Status
+|- |Videoshop |Erweiterung in unterschiedlichen Teilbereichen |alle |offen
+|- |Pflichtenheft Einleitung |Aufgabenstellung, Zielsetzung, Produktnutzung, Interessengruppen |Hannes, Nick |offen
+|- |Pflichtenheft UML 1| Kontextmodell, Top-Level-Architektur |Nick |offen
+|- |Pflichtenheft UML 2|Anwendungsfalldiagramm |alle |offen
+|- |Pflichtenheft UML 3|Sequenzdiagramme für Komponenten|Jing, Meng, Shiyue, Ziyi |offen
+|- |Pflichtenheft UML 4|Klassendiagramm |alle |offen
+|- |Pflichtenheft Anforderungen |funktionale und nicht-funktionale Anforderungen |Hannes |offen
+|- |Pflichtenheft GUI |Entwurf der HTML-Seiten mit Weiterleitungen |alle |offen
+|- |Pflichtenheft Ende |Akzeptanztests & Glossar |- |offen
+|===

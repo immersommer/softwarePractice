@@ -1,0 +1,93 @@
+= Cross-Testing Feedback
+
+__Durchführende Gruppe:__ 08
+__Anwendung von Gruppe:__ 09
+
+== Getestetes System
+//Welche Aufgabe/Problemstellung löst die Anwendung.
+Online Lotterie
+
+== Fehler-Report
+[options="header"]
+[cols="1, 1, 4, 1"]
+|===
+|Pfad |Parameter |Beschreibung |Rückgabe
+| /customer_bets | Einsatz ändern |Der Nutzer kann den Betrag einer Wette ändern, obwohl der Betrag standardisiert ist| falscher neuer Einsatz
+| /customer_bets | Einsatz ändern |Der Nutzer kann den Betrag einer Wette noch ändern, nachdem er gezogen wurde| falscher neuer Einsatz
+| /customer_bets | Gruppeneinsatz ändern |Der Nutzer möchte zu einer Gruppenwette (bisheriger Einsatz: 20€) 10€ hinzufügen, muss aber dafür 30€ eingeben. Es kommt eine Fehlermeldung mit zu wenig Guthaben, obwohl mehr als 10€ aufgeladen sind | Fehlermeldung trotz Richtigkeit
+| /customer_bets | Tipp ändern (Zahlenwetten) |Bei Zahlenwetten wird bei ausreichendem Guthaben durch Anklicken von "Tipp ändern" Folgendes angezeigt:"Um zu wetten müssen Sie Geld in Ihr virtuelles Portmonee aufladen."| falsche Fehlermeldung
+| /group_join | Fehlermeldung | Die Fehlermeldung beim Beitritt zu einem nicht existierenden Gemeinschaft lautet:"Um zu wetten müssen Sie Geld in Ihr virtuelles Portmonee aufladen."| falsche Fehlermeldung
+| /footballadmin | Fußballtoto Ergebnis Eintragen |Der Administrator kann die Spiele, auf die die Benutzer wetten können, nicht finden| fehlende/falsche Spiele
+| /zahlenlotterie | Auswertung der Tippschein |Wenn der Administrator die gleiche Zahl wie die vom Benutzer angegebene Zahl bei Auswertung der Tippschein gibt, wird das Ergebnis der Wette vom Benutzer auch als "LOSS" angezeigt.| falsches Ergebnis
+| /zahlenlotterie | Auswertung der Tippschein |Der Administrator kann bei der Auswertung eines Tippscheins die Menge angeben | falsche Eingabe möglich
+| /zahlenlotterie | Auswertung der Tippschein |Das Datum der nächsten Ziehung ändert sich nach der Auswertung nicht | falsches Datum
+| /register | Registrieren | Eingabe: <Leerzeichen> als Vorname, Nachname, Email; Gültiges Passwort und Wiederholung | Anzeige: "Achtung! Kein Geld. Um zu wetten, müssen Sie Geld in Ihr virtuelles Portmonee aufladen"
+| /register | Registrieren | Eingabe: Gültiger Vorname, Nachname, Passwort und Wiederholung;  | Anzeige: "Achtung! Kein Geld. Um zu wetten, müssen Sie Geld in Ihr virtuelles Portmonee aufladen"
+|===
+
+== Sonstiges
+
+=== Optik der Anwendung
+PRO:
+
+* Header ist übersichtlich
+* Fußballtoto: Logos der Mannschaften
+
+CONTRA:
+
+* Header inkonsistentent Formatiert
+* Header nicht oben fixiert
+* Anmeldeseite noch nicht einheitlich zum restlichen Design
+* Es sind immer Scrollleisten zu sehen
+* Footer nicht unten fixiert
+* Hintergrund ist geschmackssache: an sich zu bunt, aber dafür gut umgesetzt
+* Inkonsistente Formatierung der Content-Bereiche
+* Register Fehlermeldung hat die Farbe schwarz auf dunklen Hintergrund
+* Umlaute werden ausgeschrieben (ae sollte ä sein)
+* Button "Gruppe betretten" mit kleinem Tippfehler
+
+=== Fehlende Features
+* Geld vom Wettkonto auszahlen
+* nach Aufgabe darf man seinen eigenen Betrag bei Gemeinschaftswetten zurückziehen, hier nicht möglich (die allgemeine Regelung, Einsatzkorrektur nach unten zu verhindern, ist valide)
+
+=== Interaktion mit der Anwendung (Usability)
+PRO:
+
+* Übersichtliches Layout (Header)
+* Abfang von Eingabefehlern
+* Home-Seite gibt gute Übersicht über verfügbare Funktionen
+* Liste der abgeschlossenen Wetten + Möglichkeit, diese zu ändern in einer übersichtlichen Anzeige
+
+CONTRA:
+
+* Gelegentliche Fehlermeldungen auf Englisch (z.B. Login)
+* Tabelle Gewinngemeinschaft auf Englisch
+* Inkonsistente verwendung von Umlauten (ä <=> ae)
+* Ausfüllen des Lotteriescheins ohne Anmeldung möglich (kein Absenden)
+* Wenn die Übersicht der Fußballspiele leer ist, weißt keine Information darauf hin
+* Lotto Auswahl der Dauer etwas Umständlich
+* Fußballtipp-Optionen: Zahleneingabe gar nicht intuitiv, Reihenfolge zusätzlich verwirrend (1-Gast, 2-Heim, 3-Unentschieden)
+* Kontakt-Option (sehr selten benutzt) in der Mitte der Navigationsleiste etwas übertrieben
+* ist Tippänderung einer Gemeinschaftswette sinnvoll? Szenario: Person setzt 100€ auf Spiel, Tipp wird von anderer Person geändert, dann Ergebnis falsch. Zwar ist die Gruppe passwortgeschützt, aber trotzdem ist das Feature gefährlich
+
+== Verbesserungsvorschläge
+OPTIK:
+
+* Einheitlich gestaltete Anmeldeseite
+* Header beim Scrollen am oberen Bildschirmrand fixieren (sticky)
+* Fehlermeldungen besser lesbar machen
+* eventuelle Änderung des Hintergrundbildes / Sättigung reduzieren
+
+
+INTERAKTION:
+
+* Die richtige Fehlermeldung
+* bei derzeitiger Optionswahl (Bsp.: Fußball-Tipp): statt Zahleneingabe (1,2,3) lieber Radiobuttons oder Auswahlliste verwenden
+* Einheitliche Sprache benutzen
+* Möglichkeit des Ausfüllens des Lotteriescheins ohne vorheriges Login entfernen
+* Wetten kompakter anzeigen (bei vielen Wetten -> sehr viel scrollen)
+* Hinzufügen von Ergebnistipp bei Fußballtoto
+* Lotterietipp in geordneter Zahlenreihenfolge anzeigen
+* einheitliche Links: bislang gemischt Englisch/Deutsch
+
+

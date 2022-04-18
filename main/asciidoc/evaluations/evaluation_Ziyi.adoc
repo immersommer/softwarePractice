@@ -1,0 +1,31 @@
+= Persönliches Feedback eines Teammitgliedes des Softwarepraktikums 2021/22
+// Auch wenn der Bogen nicht anonymisiert ist, dürfen Sie gern Ihre Meinung offen kundtun.
+// Sowohl positive als auch negative Anmerkungen werden gern gesehen und zur stetigen Verbesserung genutzt.
+// Versuchen Sie in dieser Auswertung also stets sowohl Positives wie auch Negatives zu erwähnen.
+
+**Von:**
+Ziyi Fu
+
+**Gruppe:**
+swt21w08
+
+== Was habe ich gelernt / was habe ich nicht gelernt?
+
+* Planung ein großes Software-Projekt von Anfang an
+* Verwendung von Framework
+* Teamarbeit
+
+== Welche Erfahrungen habe ich mit der Zusammenarbeit im Team gemacht?
+Gute und effektive Kommunikation mit Teammitgliedern, um schneller arbeiten zu können
+
+== Welche Erfahrungen habe ich bei der Wiederverwendung von Bibliotheken/Frameworks (insbesondere SalesPoint) gemacht?
+Spring ist ein gutes Framework; salespoint hat jedoch einige Einschränkungen und kann nicht immer verwendet werden.
+
+== Welche Vorschläge zur weiteren Verbesserung des Softwarepraktikums gibt es?
+Bei der Implementierung von HTML-Seiten können die Studenten verschiedene Ansätze verwenden und nicht nur den vorgeschriebenen.
+
+== Feedback für den Tutor
+Unser Tutor war bei jedem Treffen sehr hilfsbereit und beantwortet viele Fragen, sodass unser Projekt besser vorankommen konnte.
+
+== Sonstiges und Anmerkungen
+// Welche Aspekte fanden in den oben genannten Punkten keine Erwähnung?

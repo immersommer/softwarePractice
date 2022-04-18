@@ -1,0 +1,71 @@
+= Protokoll Gruppe 08
+
+Treffen am 27.10.2021
+
+Ort:      Discord +
+Beginn:   11:30 Uhr +
+Ende:     12:05 Uhr
+
+__Schriftführer:__ Nick Ruider
+
+*Nächstes Treffen:* +
+03.11.2021, 11:30 Uhr, Discord
+
+__Teilnehmer:__
+
+- André (Tutor)
+- Hannes
+- Jing
+- Meng
+- Nick
+- Shiyue
+- Ziyi
+
+== Bemerkungen
+-
+
+== Retrospektive des letzten Sprints
+*Issue referenziert die Issue ID von GitHub*
+
+[option="headers"]
+|===
+|Issue |Titel |Beschreibung |Verantwortlicher |Status
+|- |Videoshop |Erweiterung in unterschiedlichen Teilbereichen |alle |offen
+|- |Pflichtenheft Einleitung |Aufgabenstellung, Zielsetzung, Produktnutzung, Interessengruppen |Hannes, Nick |abgeschlossen
+|- |Pflichtenheft UML 1| Kontextmodell, Top-Level-Architektur |Nick |abgeschlossen
+|- |Pflichtenheft UML 2|Anwendungsfalldiagramm |alle |Änderung nötig
+|- |Pflichtenheft UML 3|Sequenzdiagramme für Komponenten|Jing, Meng, Shiyue, Ziyi |abgeschlossen
+|- |Pflichtenheft UML 4|Klassendiagramm |alle |offen
+|- |Pflichtenheft Anforderungen |funktionale und nicht-funktionale Anforderungen |Hannes |abgeschlossen
+|- |Pflichtenheft GUI |Entwurf der HTML-Seiten mit Weiterleitungen |alle |offen
+|- |Pflichtenheft Ende |Akzeptanztests & Glossar |- |offen
+|===
+
+== Aktueller Stand / Kritik
+- Time Recording nachtragen
+- Use-Case-Diagramm: Striche an Bubble, nicht Box
+- einige Muss-Funktionen in Kann-Funktionen ändern
+- Prioritätensetzung o.Ä. realistischer an Umsetzung orientieren
+
+== Planung des nächsten Sprints
+*Issue referenziert die Issue ID von GitHub*
+
+// See http://asciidoctor.org/docs/user-manual/=tables
+[option="headers"]
+|===
+|Issue |Titel |Beschreibung |Verantwortlicher |Status
+|- |Videoshop 1 |Passwort ändern/Rabattierung |Nick |offen
+|- |Videoshop 2 |Registrierung/Produktsichtbarkeit |Hannes |offen
+|- |Videoshop 3 |Stückzahl im Warenkorb/Suche |Ziyi |offen
+|- |Videoshop 4 |Bestellung per E-Mail schicken/Hilfe-Seite |Meng |offen
+|- |Videoshop 5 |Löschen/genaue Bestellung |Jing |offen
+|- |Videoshop 6 |Durchschnitt der Bewertung/Finanzen |Shiyue |offen
+|- |Pflichtenheft allgemein|Anmerkungen beachten, Korrektur |alle |offen
+|- |Pflichtenheft UML 1|Änderungen am Anwendungsfalldiagramm |Nick |offen
+|- |Pflichtenheft UML 2|Klassendiagramm |alle |offen
+|- |Pflichtenheft GUI |Entwurf der HTML-Seiten mit Weiterleitungen |alle |offen
+|- |Pflichtenheft Akzeptanztests |Ableiten aus Use-Case |Jing, Meng, Shiyue, Ziyi |offen
+|- |Pflichtenheft Glossar |Begriffe beschreiben |Hannes, Nick |offen
+|- |Time-Recording |WICHTIG! Ergänzen von Woche 1&2 |alle |offen
+
+|===

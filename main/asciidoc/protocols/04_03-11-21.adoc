@@ -1,0 +1,74 @@
+= Protokoll Gruppe 08
+
+Treffen am 03.11.2021
+
+Ort:      Discord +
+Beginn:   11:30 Uhr +
+Ende:     12:15 Uhr
+
+__Schriftführer:__ Nick Ruider
+
+*Nächstes Treffen:* +
+10.11.2021, 11:30 Uhr, Discord
+
+__Teilnehmer:__
+
+- André (Tutor)
+- Hannes
+- Nick
+- Shiyue
+- Ziyi
+
+== Bemerkungen
+- Einführung Entwicklerdokumentation
+- Jing & Meng entschuldigt
+
+== Retrospektive des letzten Sprints
+*Issue referenziert die Issue ID von GitHub*
+
+[option="headers"]
+|===
+|Issue |Titel |Beschreibung |Verantwortlicher |Status
+|- |Videoshop 1 |Rabattierung |Nick |abgeschlossen
+|- |Videoshop 2 |Registrierung |Hannes |abgeschlossen
+|- |Videoshop 3 |Stückzahl im Warenkorb |Ziyi |abgeschlossen
+|- |Videoshop 4 |Bestellung per E-Mail schicken |Meng |offen
+|- |Videoshop 5 |Löschen |Jing |abgeschlossen
+|- |Videoshop 6 |Durchschnitt der Bewertung |Shiyue |abgeschlossen
+|- |Pflichtenheft allgemein|Anmerkungen beachten, Korrektur |alle |abgeschlossen
+|- |Pflichtenheft UML 1|Änderungen am Anwendungsfalldiagramm |Nick |abgeschlossen
+|- |Pflichtenheft UML 2|Klassendiagramm |alle |abgeschlossen
+|- |Pflichtenheft GUI |Entwurf der HTML-Seiten mit Weiterleitungen |alle |abgeschlossen
+|- |Pflichtenheft Akzeptanztests |Ableiten aus Use-Case |Jing, Meng, Shiyue, Ziyi |abgeschlossen
+|- |Pflichtenheft Glossar |Begriffe beschreiben |Hannes, Nick |abgeschlossen
+|- |Time-Recording |WICHTIG! Ergänzen von Woche 1&2 |alle |abgeschlossen
+|===
+
+== Aktueller Stand / Kritik
+- Jing: Videoshop-Abgabe zu spät
+- Meng: Videoshop bis Sonntag nacharbeiten
+- Time Recording für Woche 3 unvollständig
+- Pflichtenheft im Allgemeinen gut
+- Pflichtenheft aUML-Klassendiagramm nachbessern (Bet)
+- Hinweis auf gleiche Formatierung, um Änderungen besser einzusehen
+
+== Planung des nächsten Sprints
+*Issue referenziert die Issue ID von GitHub*
+
+// See http://asciidoctor.org/docs/user-manual/=tables
+[option="headers"]
+|===
+|Issue |Titel |Beschreibung |Verantwortlicher |Status
+|- |Pflichtenheft aUML |Bet-Klasse überarbeiten |Hannes |offen
+|- |Time Recording |Woche 3 & 4 |alle |offen
+|- |Videoshop |Bestellung per E-Mail schicken |Meng |offen
+|- |Testplan |komplettes Dokument |Jing, Meng, Shiyue, Ziyi |offen
+|- |Entwicklerdokumentation 1 |Einführung + Klassendiagramme dUML |Hannes, Nick |offen
+|- |Entwicklerdokumentation 2 |Sequenzdiagramme |alle |offen
+|- |Prototyp 1 |Authentication-Komponente |Hannes |offen
+|- |Prototyp 2 |Community-Komponente |Jing |offen
+|- |Prototyp 3 |Lotto-Komponente |Meng |offen
+|- |Prototyp 4 |Fußball-Komponente |Nick |offen
+|- |Prototyp 5 |Finanzen-Komponente |Shiyue |offen
+|- |Prototyp 6 |Management-Komponente |Ziyi |offen
+|===

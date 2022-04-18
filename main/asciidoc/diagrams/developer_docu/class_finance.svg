@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="69cm" height="47cm" viewBox="-2 -23 1368 929" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: #ffffff" x="-0.0118293" y="-1.23286" width="1365.09" height="906.231"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x="-0.0118293" y="-1.23286" width="1365.09" height="906.231"/>
+    <rect style="fill: #ffffff" x="-0.0118293" y="-21.2329" width="181.1" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x="-0.0118293" y="-21.2329" width="181.1" height="20"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1.98817" y="-6.23286">package lottery.finance</text>
+  </g>
+  <g>
+    <rect style="fill: #add8e6" x="50.8812" y="49.6602" width="1224.66" height="555.387"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x="50.8812" y="49.6602" width="1224.66" height="555.387"/>
+    <rect style="fill: #add8e6" x="50.8812" y="29.6602" width="119.5" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x="50.8812" y="29.6602" width="119.5" height="20"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="52.8812" y="44.6602">lottery.finance</text>
+  </g>
+  <g>
+    <rect style="fill: #ffcd99" x="80.5732" y="82.1746" width="356.5" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x="80.5732" y="82.1746" width="356.5" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="258.823" y="101.175">FinanceEntry</text>
+    <rect style="fill: #ffcd99" x="80.5732" y="110.175" width="356.5" height="100"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x="80.5732" y="110.175" width="356.5" height="100"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="83.0732" y="124.175">-id: long</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="83.0732" y="140.175">-user: String</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="83.0732" y="156.175">-amount: Double</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="83.0732" y="172.175">-note: String</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="83.0732" y="188.175">-date: LocalDateTime</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="83.0732" y="204.175">-formatDateTime: DateTimeFormatter</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="83.0732" y1="209.775" x2="344.873" y2="209.775"/>
+    <rect style="fill: #ffcd99" x="80.5732" y="210.175" width="356.5" height="148"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x="80.5732" y="210.175" width="356.5" height="148"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="83.0732" y="224.175">#FinanceEntry()</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="83.0732" y="240.175">+FinanceEntry(user:UserAccount,amount:Number,</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="83.0732" y="256.175">              note:String,date:LocalDateTime)</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="83.0732" y="272.175">+getID(): long</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="83.0732" y="288.175">+getUser(): String</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="83.0732" y="304.175">+getAmount(): Money</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="83.0732" y="320.175">+getNote(): String</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="83.0732" y="336.175">+getDate(): String</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="83.0732" y="352.175">+toString(): String</text>
+  </g>
+  <g>
+    <rect style="fill: #ffcd99" x="501.552" y="166.905" width="310.3" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x="501.552" y="166.905" width="310.3" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="656.702" y="185.905">FinanceForm</text>
+    <rect style="fill: #ffcd99" x="501.552" y="194.905" width="310.3" height="52"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x="501.552" y="194.905" width="310.3" height="52"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="504.052" y="208.905">-amount: Double</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="504.052" y="224.905">-date: LocalDateTime</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="504.052" y="240.905">-note: String</text>
+    <rect style="fill: #ffcd99" x="501.552" y="246.905" width="310.3" height="100"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x="501.552" y="246.905" width="310.3" height="100"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="504.052" y="260.905">-FinanceForm()</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="504.052" y="276.905">+FinanceForm(amount:Double,note:String)</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="504.052" y="292.905">+getAmount(): Double</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="504.052" y="308.905">+getDate(): LocalDateTime</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="504.052" y="324.905">+getNote(): String</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="504.052" y="340.905">+toString(): String</text>
+  </g>
+  <g>
+    <rect style="fill: #90ee90" x="80.183" y="475.312" width="472" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x="80.183" y="475.312" width="472" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="316.183" y="494.312">FinanceRepository</text>
+    <rect style="fill: #90ee90" x="80.183" y="503.312" width="472" height="68"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x="80.183" y="503.312" width="472" height="68"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="82.683" y="517.312">+findById(aLong:Long): Optional&lt;FinanceEntry&gt;</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="82.683" y="533.312">+findByUser(user:String): Streamable&lt;FinanceEntry&gt;</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="82.683" y="549.312">+findByUser(user:String,sort:Sort): Streamable&lt;FinanceEntry&gt;</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="82.683" y="565.312">+findAll(): Streamable&lt;FinanceEntry&gt;</text>
+    <rect style="fill: #90ee90" x="506.183" y="445.312" width="115.8" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1; stroke-dasharray: 6; stroke: #000000" x="506.183" y="445.312" width="115.8" height="36"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="512.183" y="459.312">T:FinanceEntry</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="512.183" y="475.312">ID:Long</text>
+  </g>
+  <g>
+    <rect style="fill: #ffcd99" x="859" y="82.0472" width="395" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x="859" y="82.0472" width="395" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="1056.5" y="101.047">FinanceController</text>
+    <rect style="fill: #ffcd99" x="859" y="110.047" width="395" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x="859" y="110.047" width="395" height="8"/>
+    <rect style="fill: #ffcd99" x="859" y="118.047" width="395" height="100"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x="859" y="118.047" width="395" height="100"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="861.5" y="132.047">+FinanceController(management:FinanceManagement)</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="861.5" y="148.047">+finances(user:UserAccount,form:FinanceForm,</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="861.5" y="164.047">          model:Model): String</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="861.5" y="180.047">+depositOrWithdraw(form:FinanceForm,errors:Errors,</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="861.5" y="196.047">                   model:Model,action:String,</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="861.5" y="212.047">                   user:UserAccount): String</text>
+  </g>
+  <g>
+    <rect style="fill: #add8e6" x="49.3392" y="695.846" width="172.728" height="61.6884"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x="49.3392" y="695.846" width="172.728" height="61.6884"/>
+    <rect style="fill: #add8e6" x="49.3392" y="675.846" width="40" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x="49.3392" y="675.846" width="40" height="20"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="51.3392" y="690.846">Time</text>
+  </g>
+  <g>
+    <rect style="fill: #ffcd99" x="63.2192" y="711.268" width="143.5" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x="63.2192" y="711.268" width="143.5" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="134.969" y="730.268">LocalDateTime</text>
+  </g>
+  <g>
+    <rect style="fill: #add8e6" x="290.068" y="687.97" width="499.676" height="192.942"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="290.068" y="687.97" width="499.676" height="192.942"/>
+    <rect style="fill: #add8e6" x="290.068" y="667.97" width="50.2" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="290.068" y="667.97" width="50.2" height="20"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="292.068" y="682.97">Spring</text>
+  </g>
+  <g>
+    <rect style="fill: #ffcd99" x="490.716" y="817.266" width="48.05" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="490.716" y="817.266" width="48.05" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="514.741" y="836.266">Sort</text>
+  </g>
+  <g>
+    <rect style="fill: #90ee90" x="602.68" y="814.362" width="110.1" height="44"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="602.68" y="814.362" width="110.1" height="44"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="657.73" y="830.362">&lt;&lt;interface&gt;&gt;</text>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="657.73" y="849.362">Model</text>
+  </g>
+  <g>
+    <rect style="fill: #90ee90" x="604.78" y="711.136" width="110.1" height="44"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="604.78" y="711.136" width="110.1" height="44"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="659.83" y="727.136">&lt;&lt;interface&gt;&gt;</text>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="659.83" y="746.136">Errors</text>
+  </g>
+  <g>
+    <rect style="fill: #90ee90" x="319.82" y="731.132" width="150.1" height="44"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="319.82" y="731.132" width="150.1" height="44"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="394.87" y="747.132">&lt;&lt;interface&gt;&gt;</text>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="394.87" y="766.132">CrudRepository</text>
+    <rect style="fill: #90ee90" x="423.92" y="701.132" width="54" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 6; stroke: #000000" x="423.92" y="701.132" width="54" height="36"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="429.92" y="715.132">T:</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="429.92" y="731.132">ID:</text>
+  </g>
+  <g>
+    <rect style="fill: #90ee90" x="315.772" y="822.71" width="113.95" height="44"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="315.772" y="822.71" width="113.95" height="44"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="372.747" y="838.71">&lt;&lt;interface&gt;&gt;</text>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="372.747" y="857.71">Streamable</text>
+    <rect style="fill: #90ee90" x="383.722" y="808.71" width="54" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 6; stroke: #000000" x="383.722" y="808.71" width="54" height="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="389.722" y="822.71">T:</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="1254.5,150.047 1304.78,150.047 1304.78,836.362 719.485,836.362 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="732.133,831.362 716.133,836.362 732.133,841.362 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="1254.5,150.047 1304.78,150.047 1304.78,733.136 722.275,733.136 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="734.923,728.136 718.923,733.136 734.923,738.136 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1306.78" y="438.592">&lt;&lt;use&gt;&gt;</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="316.183,571.815 316.183,632.816 271.99,632.816 271.99,753.132 313.115,753.132 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="300.467,758.132 316.467,753.132 300.467,748.132 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="294.087" y="629.816">&lt;&lt;bind&gt;&gt;</text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="294.087" y="645.816">&lt;T-&gt;FinanceEntry, ID-&gt;Long&gt;</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="316.183,571.815 316.183,632.816 271.99,632.816 271.99,844.71 309.067,844.71 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="296.419,849.71 312.419,844.71 296.419,839.71 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="316.183,571.818 316.183,634.23 514.741,634.23 514.741,809.745 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="509.741,797.097 514.741,813.097 519.741,797.097 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="80.5732,184.175 17.9947,184.175 17.9947,725.268 56.0402,725.268 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="43.3928,730.268 59.3928,725.268 43.3928,720.268 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="501.552,220.906 468.898,220.906 468.898,398 17.9947,398 17.9947,725.268 56.0402,725.268 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="43.3928,730.268 59.3928,725.268 43.3928,720.268 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffcd99" x="741.598" y="417.542" width="487.4" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x="741.598" y="417.542" width="487.4" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="985.298" y="436.542">FinanceManagement</text>
+    <rect style="fill: #ffcd99" x="741.598" y="445.542" width="487.4" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x="741.598" y="445.542" width="487.4" height="8"/>
+    <rect style="fill: #ffcd99" x="741.598" y="453.542" width="487.4" height="100"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x="741.598" y="453.542" width="487.4" height="100"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="744.098" y="467.542">+FinanceManagement(entries:FinanceRepository)</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="744.098" y="483.542">+deposit(financeForm:FinanceForm,user:UserAccount): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="744.098" y="499.542">+withdraw(financeForm:FinanceForm,user:UserAccount): boolean</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="744.098" y="515.542">+getUserBalance(user:UserAccount): Money</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="744.098" y="531.542">+findEntriesByUser(user:UserAccount): Streamable&lt;FinanceEntry&gt;</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="744.098" y="547.542">+findAll(): Streamable&lt;FinanceEntry&gt;</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="577.355,529.312 653.637,529.312 653.637,485.542 741.091,485.542 "/>
+    <polygon style="fill: #ffffff" points="552.183,529.312 566.183,524.512 580.183,529.312 566.183,534.112 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="552.183,529.312 566.183,524.512 580.183,529.312 566.183,534.112 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="655.637" y="504.427"></text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="584.183" y="526.312"></text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:end;font-family:monospace;font-style:normal;font-weight:normal" x="737.091" y="482.542"> -entries</text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:end;font-family:monospace;font-style:normal;font-weight:normal" x="737.091" y="498.542">1</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="985.298,391.862 985.298,310.795 1056.5,310.795 1056.5,218.556 "/>
+    <polygon style="fill: #ffffff" points="985.298,417.034 980.498,403.034 985.298,389.034 990.098,403.034 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="985.298,417.034 980.498,403.034 985.298,389.034 990.098,403.034 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="1020.9" y="307.795"></text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="996.298" y="413.034"></text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1060.5" y="230.556"> -management</text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1060.5" y="246.556">1</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="859,96.0472 656.702,96.0472 656.702,160.2 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="651.702,147.553 656.702,163.553 661.702,147.553 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="757.851" y="93.0472">&lt;&lt;use&gt;&gt;</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="741.598,431.542 258.823,431.542 258.823,364.88 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="263.823,377.527 258.823,361.527 253.823,377.527 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="500.211" y="428.542">&lt;&lt;create&gt;&gt;</text>
+  </g>
+</svg>

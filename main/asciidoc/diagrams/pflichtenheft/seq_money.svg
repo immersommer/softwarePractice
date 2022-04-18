@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="149px" preserveAspectRatio="none" style="width:324px;height:149px;background:#FFFFFF;" version="1.1" viewBox="0 0 324 149" width="324px" zoomAndPan="magnify"><defs/><g><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="52" x2="52" y1="36.2969" y2="114.5625"/><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="165" x2="165" y1="36.2969" y2="114.5625"/><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="282.5" x2="282.5" y1="36.2969" y2="114.5625"/><rect fill="#FEFECE" height="30.2969" style="stroke:#A80036;stroke-width:1.5;" width="95" x="5" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="81" x="12" y="24.9951">community</text><rect fill="#FEFECE" height="30.2969" style="stroke:#A80036;stroke-width:1.5;" width="95" x="5" y="113.5625"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="81" x="12" y="133.5576">community</text><rect fill="#FEFECE" height="30.2969" style="stroke:#A80036;stroke-width:1.5;" width="110" x="110" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="96" x="117" y="24.9951">management</text><rect fill="#FEFECE" height="30.2969" style="stroke:#A80036;stroke-width:1.5;" width="110" x="110" y="113.5625"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="96" x="117" y="133.5576">management</text><rect fill="#FEFECE" height="30.2969" style="stroke:#A80036;stroke-width:1.5;" width="71" x="247.5" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="57" x="254.5" y="24.9951">account</text><rect fill="#FEFECE" height="30.2969" style="stroke:#A80036;stroke-width:1.5;" width="71" x="247.5" y="113.5625"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="57" x="254.5" y="133.5576">account</text><polygon fill="#000000" points="153,63.4297,163,67.4297,153,71.4297,157,67.4297" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:1.0;" x1="52.5" x2="159" y1="67.4297" y2="67.4297"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="87" x="59.5" y="62.3638">Liste checken</text><polygon fill="#000000" points="271,92.5625,281,96.5625,271,100.5625,275,96.5625" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="165" x2="277" y1="96.5625" y2="96.5625"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="94" x="172" y="91.4966">Geld vergeben</text><!--MD5=[94c8d514f1dbf340ee8043001dbedc8e]
+@startuml
+skinparam sequence {
+ArrowColor Black
+LifeLineBorderColor Black
+LifeLineBackgroundColor Black
+Bordercolor Black
+BackgroundColor White
+}
+skinparam shadowing false
+
+community -> management: Liste checken
+management - -> account: Geld vergeben
+@enduml
+
+PlantUML version 1.2021.13beta7(Unknown compile time)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

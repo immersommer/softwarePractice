@@ -1,0 +1,194 @@
+= Test-Plan
+
+Dieser Testplan stellt eine vereinfachte Version der IEEE 829-1998 Vorlage dar.
+
+== Einführung
+Der Zweck dieses Testplans ist es, einen Überblick darüber zu geben, welche Klassen von den Tests erfasst werden. Sie richtet sich in erster Linie an die Entwickler des Projekts.
+
+== Aufbau der Testbezeichner
+Nach welchem Schema sind die Tests benannt?
+
+* Testbezeichner:
+** U - Unit Test, I - Integrationstest
+* Verantwortlicher
+** H - Hannes
+** J - Jing
+** MN - Meng & Nick
+** S - Shiyue
+** Z - Ziyi
+* folgendes Schema wird benutzt
+** [Testbezeichner]-[Verantwortlicher]-[Klassenname]-[Methodennummer]
+
+== Test Gegenstände
+* alle Klassen und Packages
+
+== Zu testende Funktionalitäten
+
+* Get und Set Methode
+
+* Konstruktoren auf invalidate Parameter testen
+
+* Funktionen auf invalidate Parameter testen
+
+== Nicht zu testende Funktionalitäten
+
+* Bibliotheken von Drittanbietern (eigene Tests beschränken sich auf Schnittstelle, bzw. Zusammenspiel).
+
+* Kompatibilitätsprobleme, die durch die Verwendung nicht zugelassener Browser verursacht werden
+
+== Herangehensweise
+
+* Klassen werden mit JUnit getestet.
+
+* Integrationstest nach Bottom-Up Prinzip.
+
+* Übernehmen Sie das gewünschte Repository.
+
+* Erstellen Sie Objekte, wenn Sie die Funktionalität eines Objekts testen müssen, das instanziiert werden muss.
+
+== Umgebungsvoraussetzungen
+
+* PC mit Tastatur und Maus oder Laptop benötigt
+
+* Zusätzlich zu der von Ihnen gewählten Entwicklungsumgebung (z.B. Eclipse, IntelliJ...) Darüber hinaus ist keine weitere Software erforderlich.
+
+* Die Daten werden in einer lokalen Datenbank gespeichert, die vom Framework bereitgestellt wird.
+
+* Software-Kommunikation während der Prüfung
+
+* Keine Kommunikation während der lokalen Ausführung, Ergebnisse werden direkt in der IDE bereitgestellt.
+
+* Im Falle von CI-Builds auf GitHub werden die Ergebnisse über das Internet an die Person übertragen, die die Testergebnisse anfordert.
+
+
+
+== Testfälle und Verantwortlichkeit
+Jede testbezogene Aufgabe muss einem Ansprechpartner zugeordnet werden.
+
+// See http://asciidoctor.org/docs/user-manual/#tables
+[options="headers"]
+|===
+|ID |Methodenname |Anwendungsfall |Vorbedingungen |Eingabe |Ausgabe
+|U-H-LoginTest-1|testLoginWithFalsePassword     |Visitor sollten das richtige und gültige Passwort eingeben, wenn sie sich einloggen möchten.   |      |        |FALSCHE ODER NICHT EXIST USERNAME/PASSWORD
+
+|U-H-RegistrationFormTest-1|testRegisterWithInvalidEntry     |Visitor sollten das validierte Eingabe eingeben, wenn sie sich registrieren möchten.   |            |       |INVALIDIERTE EINGABE
+
+|U-H-RegistrationFormTest-2|testCreateUserAccountWhenRegister |Testen, ob auch ein Useraccount erstellt wird, wenn sie erfolg registriert.   |           |       |REGISTER ERFOLG
+
+|I-S-FinanceControllerIntegrationTest-1 |testPopulatesModelForFinance |Testet ob der Benutzer die Finanzübersicht ansehen kann|User mit der Rolle "USER"||view "finances"
+
+|U-S-FinanceControllerFunctionTest-1 |testWithdrawAmountWithNotEnoughMoney|Der Benutzer sollte einen Auszahlungsbetrag eingeben, der dem Saldo nicht übersteigt.|User mit der Rolle "USER"||FALSE
+
+|U-S-FinanceControllerFunctionTest-2 |testWithdrawAmountWithEnoughMoney|Der Saldo sollte nach einer validierter Abbuchung den richtigen Wert anzeigen |User mit der Rolle "USER"||TRUE
+
+|U-S-FinanceControllerFunctionTest-3 |testDeposit|Der Saldo sollte nach einer Aufladung den richtigen Wert anzeigen.|User mit der Rolle "USER"||
+
+|U-S-FinanceManagementTest-1 |testBalanceAndDeposit|Testen, ob der Betrag im Repository hinterlegt werden kann.||Einzahlungsbetrag|richtiges Saldo
+
+|U-S-FinanceManagementTest-2 |testWithdrawAmountWithNotEnoughMoney|Wenn der Saldo geringer ist als der Auszahlungsbetrag, wird die Eingabe nicht im Repository gespeichert.||Auszahlungsbetrag|FALSE
+
+|U-S-FinanceManagementTest-3 |testWithdrawAmountWithEnoughMoney|Der Saldo sollte nach einer Auszahlung den richtigen Wert anzeigen.||Auszahlungsbetrag|TRUE
+
+|U-S-FinanceManagementTest-4 |testAllEntries|Testen, ob alle Einträge aus dem Repository gefunden werden können.|||alle Einträge
+
+|U-S-FinanceManagementTest-5 |testAllEntriesByUser|Testen, ob alle Einträge aus dem Repository entsprechend dem Benutzer gefunden werden können.||Username|alle Einträge des Nutzers
+
+|U-S-FinanceEntryTests-1 |testGetter|Testen der Attribute der Klasse|||
+
+|U-S-FinanceEntryTests-2 |testRejectsEmptyUser|Prüft mittels Validatoren die Eingaben auf Vollständigkeit.||leerer User|IllegalArgumentException
+
+|U-S-FinanceEntryTests-3 |testRejectsEmptyAmount|Prüft mittels Validatoren die Eingaben auf Vollständigkeit.||leerer Amount|IllegalArgumentException
+
+|U-S-FinanceFormTests-1 |testGetter|Testen der Attribute der Klasse|||
+
+|I-S-HomeControllerIntegrationTests-1 |testHome|Testet ob der Benutzer die Home-Übersicht ansehen kann|User mit der Rolle "USER"||view "home"
+
+|I-S-HomeControllerIntegrationTests-2 |testMessage|Testet ob der Benutzer die Message-Übersicht ansehen kann|User mit der Rolle "USER"||view "message"
+
+|U-S-HomeControllerFunctionTests-1 |testReadMessages|Testen, ob ein Benutzer nach zehn Benachrichtigungen aus der Vereinigung entfernt wird|User mit der Rolle "USER" in mindestens einer Gemeinschaft|10 Mitteilungen |0 Gemeinschaften
+
+|U-S-MessageManagementTests-1 |testAllMessage|Testen, ob alle Message aus dem Repository gefunden werden können.|||Alle Nachrichten
+
+|U-S-MessageManagementTests-2 |testNotReadMessage|Testen, ob alle Message, die nicht von Nutzer gelesen werden, aus dem Repository gefunden werden können.|||Alle von Nutzern nicht gelesenen Nachrichten
+
+|U-S-MessageManagementTests-3 |testReadMessage|Testen, ob alle Message, die von Nutzer gelesen werden, aus dem Repository gefunden werden können.|||Alle von Nutzern gelesenen Nachrichten
+
+|U-S-MessageManagementTests-4 |testAllMessageByUser|Testen, ob alle Message aus dem Repository entsprechend dem Benutzer gefunden werden können.||User|Alle Nachrichten vom Nutzer
+
+|U-S-MessageTests-1 |testGetter|Testen der Attribute der Klasse|||
+
+|U-J-CommunityControllerFunctionTest-1 |testJoinCommunityWithFalseData     |User sollten das richtige und gültige Passwort verwenden, wenn sie einer Gemeinschaft beitreten  möchten.   |User mit der Rolle "USER"            |falsches Passwort       |view "join_community"
+
+|U-J-CommunityControllerFunctionTest-2 |testJoinCommunity  |User mit richtige Password kann eine entsprechende Gemeinschaft beitreten     |User mit der Rolle "USER"    |gültiges Passwort    |view "community"
+
+|U-J-CommunityControllerFunctionTest-3 |testCreateCommunity                    |User kann eine Gemeinschaft erstellen.     |User mit der Rolle "USER"     |Gemeinschaftsname, Gemeinschaftspasswort  |view "community"
+
+|U-J-CommunityControllerFunctionTest-5 |testCreateCommunityWithExistingName   |Der Name muss eindeutig sein. Der Ersteller muss ein Name verwenden, der noch nie benutzt wurde.   a|- User mit der Rolle "USER" 
+- eine Community bereits erstellte Community |(existiert) Gemeinschaftsname, Gemeinschaftspasswort  |Fehler beim Erstellen
+
+|U-J-CommunityManagementFunctionTests-1 |testRemoveFromCommunity |User kann von einer Gemeinschaft entfernen werden.   |User ist Mitglieder von einer Gemeinschaft.     |UserAccount, Community  |User ist nicht mehr in der Mitgliederliste.
+
+|U-J-CommunityEntryTests-1 |testRejectsEmptyName|Prüft mittels Validatoren die Eingaben auf Vollständigkeit.||leerer Name|IllegalArgumentException
+
+|U-J-CommunityEntryTests-2 |testRejectsEmptyPassword|Prüft mittels Validatoren die Eingaben auf Vollständigkeit.||leeres Passwort|IllegalArgumentException
+
+|I-J-CommunityControllerIntegrationTest-1 |testToCommunity|Testen, ob der Benutzer die CommunityÜbersicht ansehen kann.|User ist mit Role "USER"||view "community"
+
+|I-J-CommunityControllerIntegrationTest-2 |testToCommunityInfo|Testen, ob der Benutzer die CommunityInfoÜbersicht ansehen kann.|User ist mit Role "USER"||view "community_info"
+
+|I-J-CommunityControllerIntegrationTest-3 |testToCommunityJoin|Testen, ob der Benutzer die "CommunityJoin"Seite ansehen kann.|User ist mit Role "USER"||view "community_join"
+
+|I-J-CommunityControllerIntegrationTest-4 |testToCommunityCreate|Testen, ob der Benutzer die "CommunityCreate"Seite ansehen kann.|User ist mit Role "USER"||view "community_create"
+
+|I-Z-AdminControllerIntegrationTests-1 |testToAdmin | Testen, ob der Administrator die Admin-Startseite anzeigen kann | User mit der Rolle "BOSS" | |view "admin"
+
+|I-Z-AdminControllerIntegrationTests-2 |testToInfo |Testen, ob der Administrator die Seite von Nutzerdetails anzeigen kann |User mit der Rolle "BOSS" | ID von Nutzer: 8 | Nutzerdetailseite von Nutzer 8
+
+|I-Z-AdminControllerIntegrationTests-3 |testToAllUsers |Testen, ob der Administrator die Liste aller Nutzer anzeigen kann |User mit der Rolle "BOSS" |   |view "admin_allUsers"
+
+|I-Z-AdminControllerIntegrationTests-4 |testToAllCommunities |Testen, ob der Administrator die Liste aller Gemeinschaften anzeigen kann | User mit der Rolle "BOSS" | | view "admin_allCommunities"
+
+|I-Z-AdminControllerIntegrationTests-5 |testToCommunityInfo |Testen, ob der Administrator die Seite von Gemeinschaftsdetails anzeigen kann| User mit der Rolle "BOSS" |Name von Gemeinschaft: gruppe |Gemeinschaftsdetailseite von Gemeinschaft "gruppe"
+
+|I-Z-AdminControllerIntegrationTests-6 |testToAllBets | Testen, ob der Administrator die Liste aller Wetten anzeigen kann |User mit der Rolle "BOSS" |   |view "admin_allBets"
+
+|I-Z-AdminControllerIntegrationTests-7 |testToAllData | Testen, ob der Administrator die Seite aller Produkte anzeigen kann | User mit der Rolle "BOSS" | |view "admin_evaluateBets"
+
+|I-Z-AdminControllerIntegrationTests-8 |testToFinanceSituation | Testen, ob der Administrator die Seite von Finanzsituation anzeigen kann |User mit der Rolle "BOSS"| | view "admin_finance"
+
+|U-Z-AdminControllerFunctionTests-1 |testSearchNotExistedUserId |Testen, ob bei der Eingabe einer nicht vorhandenen Benutzer-ID ein Webseitenfehler vorliegt |User mit der Rolle "BOSS" |ID von Nutzer: 30 |Error
+
+|U-Z-AdminControllerFunctionTests-2 |testSearchExistedUserId | Testen, ob bei der Eingabe der bestehenden Benutzer-ID auf die entsprechende Webseite springen |User mit der Rolle "BOSS" |ID von Nutzer: 8 |Erfolg
+
+|U-Z-AdminControllerFunctionTests-3 |testSearchNotExistedCommunityName |Testen, ob bei der Eingabe einer nicht vorhandenen Gemeinschaftsname ein Webseitenfehler vorliegt |User mit der Rolle "BOSS" |Name von Gemeinschaft: testCommunity |Error
+
+|U-Z-AdminControllerFunctionTests-4 |testSearchExistedCommunityName | Testen, ob bei der Eingabe des bestehenden Gemeinschaftsnamen auf die entsprechende Webseite springen| User mit der Rolle "BOSS" |Name von Gemeinschaft: gruppe |Erfolg
+
+|U-MN-BettingControllerFunctionTest-1 |testAddFootballBetNotEnoughMoney |Testen Sie, ob der Benutzer bei unzureichendem Kontostand Fußball-Lotterielose kaufen kann.  |User mit der Rolle "USER"  | |Springe zur Message-Seite, um die Fehlernachricht zu zeigen
+
+|U-MN-BettingControllerFunctionTest-2 |testUpdateFootballBet |Testen Sie, ob der Benutzer die gewettete Fußballlotterie ändern kann.  |User mit der Rolle "USER"  | |Geänderte Fußballlotterieinformationen
+
+|U-MN-BettingControllerFunctionTest-3 |testUpdateLotteryBet |Testen Sie, ob der Benutzer die gesetzte digitale Lotterie ändern kann.  |User mit der Rolle "USER"  | |Geänderte digitale Lotterieinformationen
+
+|U-MN-BettingControllerFunctionTest-4 |testUpdateFootballNotEnoughMoney |Testen Sie, ob der Benutzer die Informationen der Fußballlotterie, auf die gewettet wurde, ändern kann, wenn der Kontostand nicht ausreicht.  |User mit der Rolle "USER"  | |Springe zur Message-Seite, um die Fehlernachricht zu zeigen
+
+|I-MN-BettingControllerIntegrationTests-1 |testToBetting |Testen Sie, ob Sie erfolgreich zur Wettseite springen können.  |User mit der Rolle "USER"  | |view "betting"
+
+|I-MN-BettingControllerIntegrationTests-2 |testToNumber |Testen Sie, ob Sie erfolgreich auf die Seite des digitalen Lottoscheins springen können.  |User mit der Rolle "USER"  | |view "betting_number"
+
+|I-MN-BettingControllerIntegrationTests-3 |testToFootball |Testen Sie, ob Sie erfolgreich zur Fußball-Lotterie-Seite springen können.  |User mit der Rolle "USER"  | |view "betting_football"
+
+|I-MN-BettingControllerIntegrationTests-4 |testToChangeView |Testen Sie, ob Sie erfolgreich auf die Seite springen können, auf der Sie den Lottoschein ändern können.  |User mit der Rolle "USER"  | |view "betting_changeList"
+
+|U-MN-BettingManagementFunctionTests-1 |testAllData |Testen Sie, ob Sie alle Initialisierungsdaten einsehen können  |User mit der Rolle "USER"  | |Anzahl aller Produkte (87)
+
+|U-MN-BettingManagementFunctionTests-2 |testCategoryData |Testen Sie, ob es möglich ist, die Initialisierungsdaten des Lotterietyps anzuzeigen  |User mit der Rolle "USER"  | |Anzahl aller Lotterieprodukte (69)
+
+|U-MN-BettingManagementFunctionTests-3 |testAllBets |Testen Sie, ob Sie alle platzierten Wetten einsehen können |2 platzierte Wetten | |2 Wetten
+
+|U-MN-BettingManagementFunctionTests-4 |testUserBets |Testen Sie, ob Sie alle platzierten Wetten einsehen können, die ein einzelner Benutzer gesetzt hat |2 platzierte Wetten von 2 Nutzern | |1 Wette
+
+|U-MN-BettingManagementFunctionTests-5 |testCommunityBets |Testen Sie, ob es möglich ist, alle Wetten einzusehen, die in der Community gewettet wurden |2 platzierte Einzelwetten | |0 Wetten
+
+|U-MN-BettingManagementFunctionTests-6 |testMoneyAll |Testen Sie, ob es möglich ist, alle eingesetzten Wettbeiträge einzusehen |2 platzierte Wetten  | |Betrag der Wetten (20.0)
+|===

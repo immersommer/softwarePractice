@@ -1,0 +1,30 @@
+= Persönliches Feedback eines Teammitgliedes des Softwarepraktikums 2021/22
+// Auch wenn der Bogen nicht anonymisiert ist, dürfen Sie gern Ihre Meinung offen kundtun.
+// Sowohl positive als auch negative Anmerkungen werden gern gesehen und zur stetigen Verbesserung genutzt.
+// Versuchen Sie in dieser Auswertung also stets sowohl Positives wie auch Negatives zu erwähnen.
+
+**Von:**
+Shiyue Chen
+
+**Gruppe:**
+swt21w08
+
+== Was habe ich gelernt / was habe ich nicht gelernt?
+* Zusammenarbeit mit Teammates an einem größeren Software-Projekt
+* Springframework verwenden
+* Verwendung von Thymeleaf mit Spring
+
+== Welche Erfahrungen habe ich mit der Zusammenarbeit im Team gemacht?
+* Glücklich, verantwortungsvolle und geduldige Teamkollegen zu haben
+
+== Welche Erfahrungen habe ich bei der Wiederverwendung von Bibliotheken/Frameworks (insbesondere SalesPoint) gemacht?
+* Sich nur auf das Framework zu verlassen, ist für die Gesamtdarstellung des Projekts nicht ideal, aber die Vertrautheit mit dem Framework ist eine große Hilfe für die Funktionalität des Projekts.
+* Beispiele für Anwendung von Frameworks sind hilfreich, wie Gästebuch und Videoshop.
+
+== Welche Vorschläge zur weiteren Verbesserung des Softwarepraktikums gibt es?
+* Javascript-Anwendungen sind manchmal einfacher und ästhetisch ansprechender, und es wäre schön, eine Kombination aus Thymeleaf und Javascirpt in HTML zu haben.
+
+== Feedback für den Tutor
+* Sehr geduldig und verantwortungsbewusst, logisch und alles klar machen.
+
+== Sonstiges und Anmerkungen

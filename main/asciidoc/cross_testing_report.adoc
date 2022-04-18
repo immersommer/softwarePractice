@@ -1,0 +1,46 @@
+= Cross-Testing Feedback
+
+__Durchführende Gruppe:__ swt21w10
+__Anwendung von Gruppe:__ swt21w08
+
+== Getestetes System
+Siehe Aufgabenstellung.
+
+== Fehler-Report
+// See http://asciidoctor.org/docs/user-manual/#tables
+[options="header"]
+|===
+|Pfad |Parameter |Beschreibung |Rückgabe
+| alle Eingaben für Strings | sehr lange Strings | Überschreitung der maximalen Stringlänge | error page
+| alle Eingaben für Strings | Leerzeichen | Eingabe von beliebig vielen Leerzeichen | error page
+| /register | Email | selbe Email wie existierender Nutzer | error page
+| /betting/number & /betting/change mit category=LOTTERY | '', Strings | es können Strings für Superzahl eingegeben werden | error page
+| /betting/number & /betting/change mit category=LOTTERY | int<1 | Superzahl kann negativen Wert haben | Wette wird angenommen
+| /betting/football & /betting/change mit category=FOOTBALL | '', Zahl mit ',0' oder '.0' | falsche Eingaben für Ergebnis und Wettbetrag | error page
+| /betting/football & /betting/change mit category=FOOTBALL | Zahl>2,148e9 | Integerlimit bei Ergebnis und Wettbetrag überschreiten | error page
+| /finances | sehr große Zahlen | Rundungsfehler beim Einzahlen und Auszahlen, wodurch man Geld generieren kann (und vernichten) | gerundete Zahl, negative Zahl
+| /finances | noch größere Zahlen wie 1e500 | fehlerhafte Eingabe bei Geldbetrag | error page
+| /admin/users | '' | User-ID leer lassen und suchen | error page
+| /admin/users | - | klicken auf Details von Nutzer, der an nicht aufgelöster Wette teilgenommen hat | error page
+| /admin/evaluateBets | '', '.', usw. | zahlreiche Eingabefehler | error page
+|===
+
+== Sonstiges
+* Optik der Anwendung
+** DarkMode ist eine gute Idee, Navigation als Sidebar ist übersichtlich, FontAwesome Icons sind eine gute Ergänzung
+** Seite sieht nicht fröhlich aus (z.B. nur dunkle Farben, keine Bilder), Startseite für unangemeldete Nutzer würde ansprechend aussehen
+* Fehlende Features
+** [F0025] Überweisung Gewinne (Fehler): Admin kann wetten und Strikes bekommen, kann aber keinen Gewinn erhalten
+** [F0018] Gewinngemeinschaft Mitglied entfernen (Fehler): ab dem 10. Strike wird man bei jedem Strike aus allen Gewinngemeinschaften geworfen
+* Interaktion mit der Anwendung (Usability)
+** manche Navigationen sind nicht intuitiv
+** Eingabe einer Lotteriebankadresse ist schlecht verständlich, Erklärung für Lotteriebankadresse fehlt
+
+== Verbesserungsvorschläge
+* Was kann noch weiter verbessert werden?
+** jede Seite hat den Titel "Admin", besser wären passende Titel
+** Ausgabe von abgeschlossenen Wetten mit Gewinn bei /home
+** beim Ändern von Wetten könnten allgemein die bisherigen Eingaben angezeigt werden (so wie "bisheriger Betrag" bei Fußball)
+** Gewinngemeinschaften können nicht verlassen werden
+** Anzahl der Strikes pro Gewinngemeinschaft wird nicht ausgegeben
+** bei leerer Beschreibung in /finances: Leerzeile wird bei den Transaktionsdetails ausgegeben

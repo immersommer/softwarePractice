@@ -1,0 +1,42 @@
+= Zeiterfassung für Gruppe 08
+
+[option="headers"]
+|===
+|Woche |Hannes |Jing |Shiyue |Ziyi |Meng |Nick |Meeting
+|1  |420   |390   |450   |390     |400    |400    |60
+|2  |690   |700  |900    |660    |700    |720    |60
+|3  |1200  |1000    |890  |900    |900    |1100    |30
+|4  |1260  |880    |1100     |900   |888    |900    |45
+|5  |1100   |1500    |900    |1000   |1050    |1680    |30
+|6  |900  |920    |1200  |1200    |1550    |1100   |45
+|7  |1500   |1200    |1300    |1300   |1300    |1500    |45
+|8  |1020  |1000   |1300   |1000   |1450    |1100    |60
+|9  |1300  |1100    |1100    |1000    |1100    |1620    |20
+|10  |600  |600    |900    |690    |590    |600    |30
+|11  |1200  |200    |200    |200   |200    |1100    |30
+|12  |1200   |250   |120   |120    |150    |1400    |15
+|===
+
+*Summe der Arbeitsstunden pro Student:*
+
+* Hannes: 206 Stunden
+* Jing: 162 Stunden
+* Shiyue: 173 Stunden
+* Ziyi: 156 Stunden
+* Meng: 172 Stunden
+* Nick: 220 Stunden
+
+
+*Arbeitsstunden pro Woche pro Student:*
+
+* Hannes: 17 Stunden
+* Jing: 13,5 Stunden
+* Shiyue: 14,3 Stunden
+* Ziyi: 13 Stunden
+* Meng: 14，3 Stunden
+* Nick: 18 Stunden
+
+
+*Durchschnittliche Arbeitszeit aller Studenten pro Woche:*
+
+* 15.02 Stunden

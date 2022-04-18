@@ -1,0 +1,64 @@
+= Protokoll Gruppe 08
+
+Treffen am 19.01.2022
+
+Ort:      Discord +
+Beginn:   12:20 Uhr +
+Ende:     12:35 Uhr
+
+__Schriftführer:__ Nick Ruider
+
+*Nächstes Treffen:* +
+26.01.2022, 12:00 Uhr, Discord
+
+__Teilnehmer:__
+
+- André (Tutor)
+- Hannes
+- Jing
+- Meng
+- Nick
+- Shiyue
+- Ziyi
+
+== Bemerkungen
+- Termin für Abschlusspräsentation: Freitag, 04.02.2022, 13:00-14:30 Uhr
+
+== Retrospektive des letzten Sprints
+*Issue referenziert die Issue ID von GitHub*
+
+[option="headers"]
+|===
+|Issue |Titel |Beschreibung |Verantwortlicher |Status
+|[F0027] |Fußballtoto-Daten aus Internet |siehe Pflichtenheft |Nick |abgeschlossen
+|[F0028] |Mitteilung Gewinn/Verlust |siehe Pflichtenheft |Jing, Meng, Nick, Shiyue, Ziyi |offen
+|[F0040] |Cross-Testing-Report |Fehler beheben |alle |offen
+|[F0041] |Kundenwunsch a|
+* beim Anwerben eines Freundes kann dieser bei der Anmeldung einen Code eingeben
+* Bonus:
+** Freund: 5€ Startguthaben
+** Kunde: bei Wettgewinn bekommt Kunde kleinen Prozentanteil gutgeschrieben |Hannes, Nick |offen
+|- |UI-Verbesserungen |Benutzeroberfläche ansprechender gestalten |Hannes |offen
+|===
+
+== Aktueller Stand / Kritik
+-
+
+== Planung des nächsten Sprints
+*Issue referenziert die Issue ID von GitHub*
+
+[option="headers"]
+|===
+|Issue |Titel |Beschreibung |Verantwortlicher |Status
+|[F0028] |Mitteilung Gewinn/Verlust |siehe Pflichtenheft |Jing, Meng, Nick, Shiyue, Ziyi |offen
+|[F0040] |Cross-Testing-Report |Fehler beheben |alle |offen
+|[F0041] |Kundenwunsch a|
+* beim Anwerben eines Freundes kann dieser bei der Anmeldung einen Code eingeben
+* Bonus:
+** Freund: 5€ Startguthaben
+** Kunde: bei Wettgewinn bekommt Kunde kleinen Prozentanteil gutgeschrieben |Hannes, Nick |offen
+|- |UI-Verbesserungen |Benutzeroberfläche ansprechender gestalten |Hannes |offen
+|- |Formulare ausfüllen a|
+* Einverständniserklärung Online-Prüfung
+* Abschlussevaluation des Praktikums |alle |offen
+|===

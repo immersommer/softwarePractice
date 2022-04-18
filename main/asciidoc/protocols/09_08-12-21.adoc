@@ -1,0 +1,64 @@
+= Protokoll Gruppe 08
+
+Treffen am 08.12.2021
+
+Ort:      Discord +
+Beginn:   14:30 Uhr +
+Ende:     14:50 Uhr
+
+__Schriftführer:__ Nick Ruider
+
+*Nächstes Treffen:* +
+15.12.2021, 12:00 Uhr, Discord
+
+__Teilnehmer:__
+
+- André (Tutor)
+- Hannes
+- Jing
+- Meng
+- Nick
+- Shiyue
+- Ziyi
+
+== Retrospektive des letzten Sprints
+*Issue referenziert die Issue ID von GitHub*
+
+[option="headers"]
+|===
+|Issue |Titel |Beschreibung |Verantwortlicher |Status
+|[F0005] |Konto bearbeiten |siehe Pflichtenheft |Hannes |offen
+|[F0009] |Tippschein ändern |siehe Pflichtenheft |Meng, Nick |offen
+|[F0010] |Dauertippschein erwerben |siehe Pflichtenheft |Meng |offen
+|[F0017] |Gewinngemeinschaft Tipp abgeben |siehe Pflichtenheft |Jing, Meng, Nick |offen
+|[F0018] |Gewinngemeinschaft Mitglied entfernen |siehe Pflichtenheft |Jing |offen
+|[F0019] |Mitteilungen einsehen |siehe Pflichtenheft |Shiyue |offen
+|[F0020] |Mitteilung bei unzureichender Deckung |siehe Pflichtenheft |Shiyue |offen
+|[F0021] |Admin Einsicht finanzieller Status |siehe Pflichtenheft |Ziyi |offen
+|[F0024] |Auswertung Ziehung/Spiel |siehe Pflichtenheft |Ziyi |offen
+|[F0025] |Überweisung Gewinne |siehe Pflichtenheft |Nick |offen
+|[F0033] |Kontobearbeitung validieren |siehe Pflichtenheft |Hannes |offen
+|===
+
+== Aktueller Stand / Kritik
+-
+
+== Planung des nächsten Sprints
+*Issue referenziert die Issue ID von GitHub*
+
+[option="headers"]
+|===
+|Issue |Titel |Beschreibung |Verantwortlicher |Status
+|[F0005] |Konto bearbeiten |siehe Pflichtenheft |Hannes |offen
+|[F0009] |Tippschein ändern |siehe Pflichtenheft |Meng, Nick |offen
+|[F0010] |Dauertippschein erwerben |siehe Pflichtenheft |Meng |offen
+|[F0017] |Gewinngemeinschaft Tipp abgeben |siehe Pflichtenheft |Jing, Meng, Nick |offen
+|[F0018] |Gewinngemeinschaft Mitglied entfernen |siehe Pflichtenheft |Jing |offen
+|[F0019] |Mitteilungen einsehen |siehe Pflichtenheft | |offen
+|[F0020] |Mitteilung bei unzureichender Deckung |siehe Pflichtenheft | |offen
+|[F0021] |Admin Einsicht finanzieller Status |siehe Pflichtenheft |Ziyi |offen
+|[F0024] |Auswertung Ziehung/Spiel |siehe Pflichtenheft |Ziyi |offen
+|[F0025] |Überweisung Gewinne |siehe Pflichtenheft |Nick |offen
+|[F0033] |Kontobearbeitung validieren |siehe Pflichtenheft |Hannes |offen
+|- |Textdatei für Cross-Testing | |Nick |offen
+|===

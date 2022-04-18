@@ -1,0 +1,59 @@
+= Protokoll Gruppe 08
+
+Treffen am 15.12.2021
+
+Ort:      Discord +
+Beginn:   12:00 Uhr +
+Ende:     12:30 Uhr
+
+__Schriftführer:__ Nick Ruider
+
+*Nächstes Treffen:* +
+12.01.2022, 12:00 Uhr, Discord
+
+__Teilnehmer:__
+
+- André (Tutor)
+- Hannes
+- Jing
+- Meng
+- Nick
+- Shiyue
+- Ziyi
+
+== Bemerkungen
+- Konsultation in KW51 & KW1(2022) entfallen
+
+== Retrospektive des letzten Sprints
+*Issue referenziert die Issue ID von GitHub*
+
+[option="headers"]
+|===
+|Issue |Titel |Beschreibung |Verantwortlicher |Status
+|[F0005] |Konto bearbeiten |siehe Pflichtenheft |Hannes |abgeschlossen
+|[F0009] |Tippschein ändern |siehe Pflichtenheft |Meng, Nick |abgeschlossen
+|[F0010] |Dauertippschein erwerben |siehe Pflichtenheft |Meng, Nick |abgeschlossen
+|[F0017] |Gewinngemeinschaft Tipp abgeben |siehe Pflichtenheft |Nick |abgeschlossen
+|[F0018] |Gewinngemeinschaft Mitglied entfernen |siehe Pflichtenheft |Jing |abgeschlossen
+|[F0019] |Mitteilungen einsehen |siehe Pflichtenheft |Shiyue |abgeschlossen
+|[F0020] |Mitteilung bei unzureichender Deckung |siehe Pflichtenheft |Shiyue |abgeschlossen
+|[F0021] |Admin Einsicht finanzieller Status |siehe Pflichtenheft |Ziyi |abgeschlossen
+|[F0024] |Auswertung Ziehung/Spiel |siehe Pflichtenheft |Ziyi |abgeschlossen
+|[F0025] |Überweisung Gewinne |siehe Pflichtenheft |Nick |abgeschlossen
+|[F0033] |Kontobearbeitung validieren |siehe Pflichtenheft |Hannes |abgeschlossen
+|- |Textdatei für Cross-Testing | |Nick |abgeschlossen
+|===
+
+== Aktueller Stand / Kritik
+- Abgabe erfolgreich, keine Nacharbeit nötig
+- Entwicklerdokumetation aktualisieren
+
+== Planung des nächsten Sprints
+*Issue referenziert die Issue ID von GitHub*
+
+[option="headers"]
+|===
+|Issue |Titel |Beschreibung |Verantwortlicher |Status
+|- |Cross-Testing für Gruppe 09 |Ausfüllen der Report-Datei |alle |offen
+|- |Entwicklerdokumenation aktualisieren |Anpassung nach Änderungen |alle |offen
+|===

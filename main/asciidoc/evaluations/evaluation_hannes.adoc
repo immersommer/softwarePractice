@@ -1,0 +1,34 @@
+= Persönliches Feedback eines Teammitgliedes des Softwarepraktikums 2021/22
+// Auch wenn der Bogen nicht anonymisiert ist, dürfen Sie gern Ihre Meinung offen kundtun.
+// Sowohl positive als auch negative Anmerkungen werden gern gesehen und zur stetigen Verbesserung genutzt.
+// Versuchen Sie in dieser Auswertung also stets sowohl Positives wie auch Negatives zu erwähnen.
+
+**Von:**
+Hannes Reinhold
+**Gruppe:**
+Swt21w08
+
+== Was habe ich gelernt / was habe ich nicht gelernt?
+Das Arbeiten in einer Gruppe an einem etwas größerem Projekt über einen längeren Zeitraum.
+Verwendung von Frameworks, in diesem Fall Spring und Salespoint.
+
+== Welche Erfahrungen habe ich mit der Zusammenarbeit im Team gemacht?
+Das Arbeiten im Team verlief ganz gut und ohne besondere Zwischenfälle.
+Die Aufgaben wurden meist gerecht verteilt und auch trotz so manch auftretenden Problemen gut erfüllt.
+Meine Schwierigkeiten: Initiative ergreifen und gelegentliches Abschweifen auf nebensächliche Aufgaben.
+
+== Welche Erfahrungen habe ich bei der Wiederverwendung von Bibliotheken/Frameworks (insbesondere SalesPoint) gemacht?
+Die Verwendung von Spring war sehr angenehm (besonders durch die ausführliche Dokumentation)
+Salespoint hat nicht so viel Einsatz gefunden, konnte aber das Arbeiten durch z.B den UserAccount erleichtern.
+Einen sehr guten Einstieg in das Salespoint Framework hat das Beispiel "Videshop" gegeben.
+Das Beispiel "Guestbook" ist hier meiner Meinung nach überflüssig, weil der Videoshop schon alle wichtigen Aspekte gut erklärt.
+
+== Welche Vorschläge zur weiteren Verbesserung des Softwarepraktikums gibt es?
+Möglichkeit der Einbindung von Javascript, allerdings nur für visuelle Funktionen, wie Navigation, Highlighting von Eingaben und alles, was die Nutzererfahrung verbessert.
+Die Kernmechaniken wie Datenübergabe/Validation natürlich nach wie vor mit Java.
+
+== Feedback für den Tutor
+Unser Tutor hat bei der Betreuung unsereres Teams gute Arbeit geleistet. Bei Fragen stand er immer zur Verfügung und konnte eine verständliche Antwort geben.
+Auch die Gruppentreffen waren ganz hilfreich.
+
+== Sonstiges und Anmerkungen

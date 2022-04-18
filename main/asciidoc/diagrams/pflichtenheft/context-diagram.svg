@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="100px" preserveAspectRatio="none" style="width:385px;height:100px;background:#FFFFFF;" version="1.1" viewBox="0 0 385 100" width="385px" zoomAndPan="magnify"><defs/><g><!--MD5=[30b77fb05ec51ed647e2b3c5de1b4443]
+entity lottery--><rect fill="#FFFFFF" height="62.5938" style="stroke:#000000;stroke-width:1.5;" width="139" x="123" y="20.3018"/><rect fill="#FFFFFF" height="10" style="stroke:#000000;stroke-width:1.5;" width="15" x="242" y="25.3018"/><rect fill="#FFFFFF" height="2" style="stroke:#000000;stroke-width:1.5;" width="4" x="240" y="27.3018"/><rect fill="#FFFFFF" height="2" style="stroke:#000000;stroke-width:1.5;" width="4" x="240" y="31.3018"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="99" x="138" y="53.2969">«component»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="50" x="162.5" y="69.5938">lottery</text><!--MD5=[fee662a292a0353a69bd162820bae93b]
+entity User--><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="31" x="14" y="20.7969">User</text><!--MD5=[acb64d932532ebbc809d9a993fb5ccd9]
+entity Visitor--><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="47" x="6" y="91.7969">Visitor</text><!--MD5=[97ab183161fd5d1db7fba7485cf76add]
+entity Admin--><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="46" x="332" y="56.7969">Admin</text><!--MD5=[74b2eb76d46742bd94fc51b617adedba]
+link Visitor to lottery--><path d="M63.0808,79.719 C78.7865,76.3047 98.318,72.0587 117.371,67.9167 " fill="none" id="Visitor-to-lottery" style="stroke:#000000;stroke-width:1.0;stroke-dasharray:1.0,3.0;"/><rect fill="#FFFFFF" height="10" style="stroke:#000000;stroke-width:1.5;" width="10" x="117.729" y="61.752"/><!--MD5=[9ed4a3ef791569c6aa1f3c2c635905c4]
+link User to lottery--><path d="M55.3034,21.3479 C72.1144,25.1069 95.2815,30.2871 117.744,35.3097 " fill="none" id="User-to-lottery" style="stroke:#000000;stroke-width:1.0;stroke-dasharray:1.0,3.0;"/><rect fill="#FFFFFF" height="10" style="stroke:#000000;stroke-width:1.5;" width="10" x="117.825" y="31.4458"/><!--MD5=[cc380c0bd21cd5baea95b72530f7a7e5]
+reverse link lottery to Admin--><path d="M267.412,51.8018 C286.544,51.8018 306.16,51.8018 321.873,51.8018 " fill="none" id="lottery-backto-Admin" style="stroke:#000000;stroke-width:1.0;stroke-dasharray:1.0,3.0;"/><rect fill="#FFFFFF" height="10" style="stroke:#000000;stroke-width:1.5;" width="10" x="257.032" y="46.8018"/><!--MD5=[08df5190ceb45c95d0d9bee640f37d24]
+@startuml
+left to right direction
+skinparam BackgroundColor White
+skinparam shadowing false
+skinparam component{
+ Bordercolor Black
+ Componentstyle uml2
+ BackgroundColor White
+ Arrowcolor Black
+}
+
+
+label User
+label Visitor
+label Admin
+component lottery <<component>>{
+
+}
+Visitor ~~# lottery
+User ~~# lottery
+lottery #~~ Admin
+@enduml
+
+PlantUML version 1.2021.13beta5(Unknown compile time)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

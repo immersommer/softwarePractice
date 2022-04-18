@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="405px" preserveAspectRatio="none" style="width:2283px;height:405px;background:#FFFFFF;" version="1.1" viewBox="0 0 2283 405" width="2283px" zoomAndPan="magnify"><defs/><g><!--MD5=[0229445006da46559c106143119e9be7]
+cluster lottery--><rect fill="#FFFFFF" height="301" style="stroke:#000000;stroke-width:1.5;" width="2207" x="7" y="98.5"/><rect fill="#FFFFFF" height="10" style="stroke:#000000;stroke-width:1.5;" width="15" x="2194" y="103.5"/><rect fill="#FFFFFF" height="2" style="stroke:#000000;stroke-width:1.5;" width="4" x="2192" y="105.5"/><rect fill="#FFFFFF" height="2" style="stroke:#000000;stroke-width:1.5;" width="4" x="2192" y="109.5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="99" x="1061" y="124.4951">«component»</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="56" x="1082.5" y="140.792">lottery</text><!--MD5=[537eb04c637ba8a6df065dd55e2db42d]
+cluster acc--><rect fill="#FFFFFF" height="215.5" style="stroke:#000000;stroke-width:1.5;" width="560" x="925" y="160"/><rect fill="#FFFFFF" height="10" style="stroke:#000000;stroke-width:1.5;" width="15" x="1465" y="165"/><rect fill="#FFFFFF" height="2" style="stroke:#000000;stroke-width:1.5;" width="4" x="1463" y="167"/><rect fill="#FFFFFF" height="2" style="stroke:#000000;stroke-width:1.5;" width="4" x="1463" y="171"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="99" x="1155.5" y="185.9951">«component»</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="66" x="1172" y="202.292">account</text><!--MD5=[ea13f3982d3f313ad76f361004455302]
+cluster comm--><rect fill="#FFFFFF" height="212.5" style="stroke:#000000;stroke-width:1.5;" width="342" x="1509" y="160.5"/><rect fill="#FFFFFF" height="10" style="stroke:#000000;stroke-width:1.5;" width="15" x="1831" y="165.5"/><rect fill="#FFFFFF" height="2" style="stroke:#000000;stroke-width:1.5;" width="4" x="1829" y="167.5"/><rect fill="#FFFFFF" height="2" style="stroke:#000000;stroke-width:1.5;" width="4" x="1829" y="171.5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="99" x="1630.5" y="186.4951">«component»</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="91" x="1634.5" y="202.792">community</text><!--MD5=[6e6aaaeb37e22559401efed72826650f]
+cluster betting--><rect fill="#FFFFFF" height="98" style="stroke:#000000;stroke-width:1.5;" width="415" x="486" y="159.5"/><rect fill="#FFFFFF" height="10" style="stroke:#000000;stroke-width:1.5;" width="15" x="881" y="164.5"/><rect fill="#FFFFFF" height="2" style="stroke:#000000;stroke-width:1.5;" width="4" x="879" y="166.5"/><rect fill="#FFFFFF" height="2" style="stroke:#000000;stroke-width:1.5;" width="4" x="879" y="170.5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="99" x="644" y="185.4951">«component»</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="60" x="663.5" y="201.792">betting</text><!--MD5=[fb7066407e0c93f736f022b0612d0cf7]
+cluster mana--><rect fill="#FFFFFF" height="99" style="stroke:#000000;stroke-width:1.5;" width="315" x="1875" y="159"/><rect fill="#FFFFFF" height="10" style="stroke:#000000;stroke-width:1.5;" width="15" x="2170" y="164"/><rect fill="#FFFFFF" height="2" style="stroke:#000000;stroke-width:1.5;" width="4" x="2168" y="166"/><rect fill="#FFFFFF" height="2" style="stroke:#000000;stroke-width:1.5;" width="4" x="2168" y="170"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="99" x="1983" y="184.9951">«component»</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="106" x="1979.5" y="201.292">management</text><!--MD5=[0c4a738b3201a23a254af68352446157]
+cluster auth--><rect fill="#FFFFFF" height="102" style="stroke:#000000;stroke-width:1.5;" width="431" x="31" y="157.5"/><rect fill="#FFFFFF" height="10" style="stroke:#000000;stroke-width:1.5;" width="15" x="442" y="162.5"/><rect fill="#FFFFFF" height="2" style="stroke:#000000;stroke-width:1.5;" width="4" x="440" y="164.5"/><rect fill="#FFFFFF" height="2" style="stroke:#000000;stroke-width:1.5;" width="4" x="440" y="168.5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="99" x="197" y="183.4951">«component»</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="122" x="185.5" y="199.792">authentication</text><ellipse cx="1418.1079" cy="226.2016" fill="#FFFFFF" rx="51.1079" ry="14.7016" style="stroke:#000000;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="55" x="1387.6079" y="229.9492">deposit</text><ellipse cx="1273.0731" cy="225.7619" fill="#FFFFFF" rx="58.5731" ry="14.7619" style="stroke:#000000;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="65" x="1237.5731" y="229.5095">withdraw</text><ellipse cx="1134.8913" cy="226.1302" fill="#FFFFFF" rx="44.3913" ry="14.6302" style="stroke:#000000;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="46" x="1108.8913" y="229.8777">logout</text><ellipse cx="1013.8073" cy="342.3615" fill="#FFFFFF" rx="72.3073" ry="16.8615" style="stroke:#000000;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="99" x="961.3073" y="346.109">checkBalance</text><ellipse cx="998.0799" cy="225.7511" fill="#FFFFFF" rx="57.0799" ry="14.7511" style="stroke:#000000;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="63" x="963.5799" y="229.4987">message</text><ellipse cx="1790.1374" cy="226.1391" fill="#FFFFFF" rx="45.1374" ry="14.6391" style="stroke:#000000;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="47" x="1763.6374" y="229.8867">create</text><ellipse cx="1679.8701" cy="226.0236" fill="#FFFFFF" rx="29.8701" ry="14.5236" style="stroke:#000000;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="26" x="1666.8701" y="228.8703">join</text><ellipse cx="1564.1985" cy="342.5236" fill="#FFFFFF" rx="32.6985" ry="14.5236" style="stroke:#000000;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="30" x="1549.1709" y="345.381">kick</text><ellipse cx="1570.1374" cy="226.1391" fill="#FFFFFF" rx="45.1374" ry="14.6391" style="stroke:#000000;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="47" x="1543.6374" y="229.8867">delete</text><ellipse cx="854.8701" cy="226.0236" fill="#FFFFFF" rx="29.8701" ry="14.5236" style="stroke:#000000;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="26" x="841.8701" y="228.8703">bet</text><ellipse cx="725.2353" cy="225.8471" fill="#FFFFFF" rx="64.7353" ry="15.3471" style="stroke:#000000;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="78" x="683.2353" y="229.5946">changeBet</text><ellipse cx="564.0597" cy="225.782" fill="#FFFFFF" rx="61.5597" ry="14.782" style="stroke:#000000;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="69" x="526.5597" y="229.5295">showBets</text><ellipse cx="2105.8807" cy="225.9761" fill="#FFFFFF" rx="67.8807" ry="15.9761" style="stroke:#000000;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="87" x="2059.3807" y="229.7237">showAllBets</text><ellipse cx="1947.0868" cy="226.2397" fill="#FFFFFF" rx="55.5868" ry="14.7397" style="stroke:#000000;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="61" x="1913.5868" y="229.9873">evaluate</text><ellipse cx="393.1007" cy="226.215" fill="#FFFFFF" rx="52.6007" ry="14.715" style="stroke:#000000;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="57" x="361.6007" y="229.9626">register</text><ellipse cx="268.7722" cy="226.0369" fill="#FFFFFF" rx="36.2722" ry="14.5369" style="stroke:#000000;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="35" x="250.1457" y="229.2741">login</text><ellipse cx="121.9948" cy="225.899" fill="#FFFFFF" rx="74.9948" ry="17.399" style="stroke:#000000;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="106" x="65.9948" y="229.6465">createAccount</text><!--MD5=[fee662a292a0353a69bd162820bae93b]
+entity User--><ellipse cx="1418" cy="14" fill="#FFFFFF" rx="8" ry="8" style="stroke:#000000;stroke-width:1.5;"/><path d="M1418,22 L1418,49 M1405,30 L1431,30 M1418,49 L1405,64 M1418,49 L1431,64 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="31" x="1402.5" y="79.4951">User</text><!--MD5=[acb64d932532ebbc809d9a993fb5ccd9]
+entity Visitor--><ellipse cx="331" cy="14" fill="#FFFFFF" rx="8" ry="8" style="stroke:#000000;stroke-width:1.5;"/><path d="M331,22 L331,49 M318,30 L344,30 M331,49 L318,64 M331,49 L344,64 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="47" x="307.5" y="79.4951">Visitor</text><!--MD5=[97ab183161fd5d1db7fba7485cf76add]
+entity Admin--><ellipse cx="2253" cy="313" fill="#FFFFFF" rx="8" ry="8" style="stroke:#000000;stroke-width:1.5;"/><path d="M2253,321 L2253,348 M2240,329 L2266,329 M2253,348 L2240,363 M2253,348 L2266,363 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="46" x="2230" y="378.4951">Admin</text><!--MD5=[933987b91d2b08b1b4941f3221fa6cec]
+reverse link User to Admin--><path d="M1453.79,44.192 C1598.19,43.273 2132.85,43.117 2190,90.5 C2252.78,142.544 2258.21,246.959 2256.05,303.324 " fill="none" id="User-backto-Admin" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="none" points="1453.83,51.192,1433.78,44.341,1453.73,37.192,1453.83,51.192" style="stroke:#000000;stroke-width:1.0;"/><!--MD5=[94954b1ac4c1a25db536747d7e96451c]
+link User to logout--><path d="M1402.28,45.94 C1357.29,50.339 1229.2,64.881 1197,90.5 C1157.56,121.876 1142.17,184.049 1137.12,211.469 " fill="none" id="User-logout" style="stroke:#000000;stroke-width:1.0;"/><!--MD5=[48280bc347f4bc9850749f08f76d2c98]
+link User to withdraw--><path d="M1402.5,52.084 C1387.42,60.045 1364.58,73.728 1349,90.5 C1313.95,128.229 1288.73,185.021 1278.3,211.059 " fill="none" id="User-withdraw" style="stroke:#000000;stroke-width:1.0;"/><!--MD5=[fb08389bd2ee680ed52314e64f737c96]
+link User to deposit--><path d="M1418,82.779 C1418,123.138 1418,184.532 1418,211.498 " fill="none" id="User-deposit" style="stroke:#000000;stroke-width:1.0;"/><!--MD5=[d3baca018b5d6d8f94cbf7906b41c6a2]
+link User to bet--><path d="M1402.28,45.079 C1322.59,48.131 965.527,63.249 925,90.5 C881.966,119.437 863.712,183.486 857.583,211.472 " fill="none" id="User-bet" style="stroke:#000000;stroke-width:1.0;"/><!--MD5=[b6247aeee0476c5d51353d0e6cac5fb0]
+link User to create--><path d="M1433.65,44.917 C1489.73,46.697 1679.7,55.263 1727,90.5 C1767.53,120.693 1782.93,183.494 1787.92,211.274 " fill="none" id="User-create" style="stroke:#000000;stroke-width:1.0;"/><!--MD5=[f986e865775aa40e90d8dc71c64d8c0b]
+link User to join--><path d="M1433.65,45.904 C1477.81,50.159 1602.07,64.256 1632,90.5 C1668.35,122.374 1677.17,183.729 1679.31,211.159 " fill="none" id="User-join" style="stroke:#000000;stroke-width:1.0;"/><!--MD5=[75610d5abad45cce4b10f0123da43cfb]
+link delete to kick--><path d="M1569.29,240.584 C1568.22,260.985 1566.2,299.6 1564.99,322.6954 " fill="none" id="delete-to-kick" style="stroke:#000000;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#000000" points="1564.71,327.9334,1569.1765,319.1556,1564.9722,322.9403,1561.1875,318.736,1564.71,327.9334" style="stroke:#000000;stroke-width:1.0;"/><!--MD5=[323470b90dc690696e5a4fca5aa1f264]
+link message to checkBalance--><path d="M999.96,241.04 C1002.95,262.418 1008.62,303.016 1011.76,325.504 " fill="none" id="message-checkBalance" style="stroke:#000000;stroke-width:1.0;"/><!--MD5=[85179ae2dbaa525b0b4be4ea401a5ff4]
+link message to kick--><path d="M1017.09,240.156 C1031.7,249.5 1052.73,261.426 1073,267.5 C1249.07,320.2622 1307.74,254.871 1485,303.5 C1506.87,309.499 1530.04,321.3881 1545.59,330.2781 " fill="none" id="message-kick" style="stroke:#000000;stroke-width:1.0;"/><!--MD5=[30a11b461e9d2274d6efaf6f84b48de8]
+link bet to checkBalance--><path d="M870.827,238.397 C899.576,259.1 960.384,302.89 992.73,326.1805 " fill="none" id="bet-checkBalance" style="stroke:#000000;stroke-width:1.0;"/><!--MD5=[98efdf6af96c3be4fffbf2d19e67d334]
+link showAllBets to Admin--><path d="M2124.62,241.502 C2151.43,262.383 2200.87,300.892 2229.95,323.5435 " fill="none" id="showAllBets-Admin" style="stroke:#000000;stroke-width:1.0;"/><!--MD5=[45f36e1b1dc1768abb6fc9a550187006]
+link evaluate to Admin--><path d="M1967.21,239.649 C1981.57,248.27 2001.5,259.525 2020,267.5 C2094.44,299.592 2187.5,324.989 2229.96,335.8173 " fill="none" id="evaluate-Admin" style="stroke:#000000;stroke-width:1.0;"/><!--MD5=[8302290e15318e9294abbcb212f64896]
+link Visitor to login--><path d="M317.851,82.779 C303.988,123.138 282.901,184.532 273.638,211.498 " fill="none" id="Visitor-login" style="stroke:#000000;stroke-width:1.0;"/><!--MD5=[f03136ee2ca7d528424df681eeb4774c]
+link Visitor to register--><path d="M344.149,82.779 C358.012,123.138 379.099,184.532 388.362,211.498 " fill="none" id="Visitor-register" style="stroke:#000000;stroke-width:1.0;"/><!--MD5=[3481922e30377f375991e3b1ba8c2002]
+@startuml
+skinparam BackgroundColor White
+skinparam shadowing false
+skinparam component{
+ Bordercolor Black
+ Componentstyle uml2
+ BackgroundColor White
+ Arrowcolor Black
+}
+skinparam actor{
+ Bordercolor Black
+ Componentstyle uml2
+ BackgroundColor White
+ Arrowcolor Black
+}
+skinparam usecase{
+ Bordercolor Black
+ Componentstyle uml2
+ BackgroundColor White
+ Arrowcolor Black
+}
+
+actor User
+actor Visitor
+
+component lottery <<component>>{
+
+ component account <<component>> as acc{
+  usecase deposit
+  usecase withdraw
+  usecase logout
+  usecase checkBalance
+  usecase message
+ }
+
+ component community <<component>> as comm{
+  usecase create
+  usecase join
+  usecase kick
+  usecase delete
+ }
+
+ component betting <<component>>{
+  usecase bet
+  usecase changeBet
+  usecase showBets
+ }
+
+component management <<component>> as mana{
+  usecase showAllBets
+  usecase evaluate
+ }
+
+ component authentication <<component>> as auth{
+  usecase register
+  usecase login
+  usecase createAccount
+ }
+
+}
+
+actor Admin
+
+User <|- - Admin
+User - - logout
+User - - withdraw
+User - - deposit
+User - - bet
+User - - create
+User - - join
+delete ..> kick
+message - - checkBalance
+message - - kick
+bet - - checkBalance
+showAllBets - - Admin
+evaluate - - Admin
+Visitor - - login
+Visitor - - register
+@enduml
+
+PlantUML version 1.2021.13beta8(Unknown compile time)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

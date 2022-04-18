@@ -1,0 +1,69 @@
+= Protokoll Gruppe 08
+
+Treffen am 10.11.2021
+
+Ort:      Discord +
+Beginn:   11:30 Uhr +
+Ende:     12:05 Uhr
+
+__Schriftführer:__ Nick Ruider
+
+*Nächstes Treffen:* +
+17.11.2021, 11:50 Uhr, Discord
+
+__Teilnehmer:__
+
+- André (Tutor)
+- Hannes
+- Jing
+- Meng
+- Nick
+- Shiyue
+- Ziyi
+
+== Bemerkungen
+- Ankündigung Zwischenpräsentation
+- Verspätung Hannes
+
+-> Verlegung Meeting auf 11:50 Uhr
+
+== Retrospektive des letzten Sprints
+*Issue referenziert die Issue ID von GitHub*
+
+[option="headers"]
+|===
+|Issue |Titel |Beschreibung |Verantwortlicher |Status
+|- |Pflichtenheft aUML |Bet-Klasse überarbeiten |Hannes |abgeschlossen
+|- |Time Recording |Woche 3 & 4 |alle |abgeschlossen
+|- |Videoshop |Bestellung per E-Mail schicken |Meng |abgeschlossen
+|- |Testplan |komplettes Dokument |Jing, Meng, Shiyue, Ziyi |offen
+|- |Entwicklerdokumentation 1 |Einführung + Klassendiagramme dUML |Hannes, Nick |offen
+|- |Entwicklerdokumentation 2 |Sequenzdiagramme |alle |offen
+|- |Prototyp 1 |Authentication-Komponente |Hannes |offen
+|- |Prototyp 2 |Community-Komponente |Jing |offen
+|- |Prototyp 3 |Lotto-Komponente |Meng |offen
+|- |Prototyp 4 |Fußball-Komponente |Nick |offen
+|- |Prototyp 5 |Finanzen-Komponente |Shiyue |offen
+|- |Prototyp 6 |Management-Komponente |Ziyi |offen
+|===
+
+== Aktueller Stand / Kritik
+- guter Fortschritt
+
+== Planung des nächsten Sprints
+*Issue referenziert die Issue ID von GitHub*
+
+// See http://asciidoctor.org/docs/user-manual/=tables
+[option="headers"]
+|===
+|Issue |Titel |Beschreibung |Verantwortlicher |Status
+|- |Testplan |komplettes Dokument |Jing, Meng, Shiyue, Ziyi |offen
+|- |Entwicklerdokumentation 1 |Einführung + Klassendiagramme dUML |Hannes, Nick |offen
+|- |Entwicklerdokumentation 2 |Sequenzdiagramme |alle |offen
+|- |Prototyp 1 |Authentication-Komponente |Hannes |offen
+|- |Prototyp 2 |Community-Komponente |Jing |offen
+|- |Prototyp 3 |Lotto-Komponente |Meng |offen
+|- |Prototyp 4 |Fußball-Komponente |Nick |offen
+|- |Prototyp 5 |Finanzen-Komponente |Shiyue |offen
+|- |Prototyp 6 |Management-Komponente |Ziyi |offen
+|===
