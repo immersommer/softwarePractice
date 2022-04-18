@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <link th:href="@{/resources/css/style_landing_page.css}" rel="stylesheet"/>
+    <script src="https://kit.fontawesome.com/63a2b78b2b.js" crossorigin="anonymous"></script>
+    <title>Mach Dein Glück!! Online Lotterie</title>
+</head>
+<body>
+
+<!==================== HEADER ====================>
+
+<header>
+    <div id="logo">
+        <a href="#overview">
+            <img src="graphics/logo.svg" id="main-logo" alt="Logo">
+        </a>
+    </div>
+    <nav id="navigation">
+        <ul>
+            <li><a href="#overview">Überblick</a></li>
+            <li><a href="#betting">Wetten</a></li>
+            <li><a href="#community">Gemeinschaften</a></li>
+            <li><a href="#partner">Affiliate</a></li>
+            <li><a href="#about">Über uns</a></li>
+            <li><a href="#register">Registrieren</a></li>
+            <li><a href="/login">Einloggen</a></li>
+        </ul>
+    </nav>
+</header>
+
+
+<!==================== OVERVIEW ====================>
+
+<section id="overview">
+    <hr>
+    <h1>MACH DEIN GLÜCK!!</h1>
+    <h2>Online Lotterie</h2>
+    <hr>
+    <a id="learn-more-link" href="#about">Mehr Erfahren</a>
+    <br>
+    <i class="fas fa-chevron-down"></i>
+</section>
+
+
+<!==================== BETTING ====================>
+
+<section id="betting">
+    <h1>Wetten</h1>
+    <hr>
+    <div class="content">
+        <h3>
+            Mach Dein Glück!! bietet Lotterie 6 aus 49 und Foßballtoto an.
+        </h3>
+        <br>
+        <div>
+            <div class="card-container">
+                <div class="card-hover-big" id="card-lottery">
+                    <div class="card-image">
+
+                    </div>
+                    <div class="card-content">
+                        <h3>Lotterie 6 aus 49</h3>
+                        <p>Versuchen Sie Ihr Glück und gewinnen Sie den Jackpot in Höhe von 100.000€!
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#register">Jetzt Spielen!</a>
+                    </div>
+                </div>
+
+                <div class="card-hover-big" id="card-football">
+                    <div class="card-image">
+
+                    </div>
+                    <div class="card-content">
+                        <h3>Fußballtoto</h3>
+                        <p>Beweisen Sie Ihre Fußballkenntnisse und wetten Sie auf die deutsche Bundesliga!
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#register">Jetzt Spielen!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!==================== COMMUNITY ====================>
+
+<section id="community">
+    <h1>Gemeinschaften</h1>
+    <hr>
+    <div class="content">
+        <h3>Zusammen macht Spielen noch viel mehr Spaß</h3>
+        <p>
+            Unter einer Wettgemeinschaft versteht man einen Zusammenschluss von Spielern, die gemeinsam bei einer Lotterie mittippen, beispielsweise dem LOTTO 6 aus 49. Durch das Zusammenlegen der Spieleinsätze kann man dabei mehr Tipps abgeben, sodass die Gewinnchancen steigen. Die erzielten Gewinne werden im Anschluss unter allen Teilnehmern aufgeteilt.
+        </p>
+        <br>
+        <br>
+        <div class="community-grid">
+            <div class="community-description">
+                <h3>Wie funktioniert's?</h3>
+                <p>Bei Mach Dein Glück!! können Sie einfach und unkompliziert eine Wettgemeinschaft gründen. Sie müssen nur den Namen und das Passwort der Gemeinschaft festlegen und diese erstellen. Wenn Sie die Daten an andere Spieler weitergeben, können diese der Gemeinschaft beitreten. Anschließend können die Teilnehmer eine Wette für Ihre Gemeinschaft abgeben. Sobald ein Teilnehmer gewonnen hat, wird das Preisgeld auf die Teilnehmer aufgeteilt, je nachdem, wie viel sie gewettet haben.</p>
+            </div>
+            <div id="community-card">
+                <div class="card-content">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!==================== PARTNER PROGRAMM ====================>
+
+<section id="partner">
+    <h1>Partnerprogramm</h1>
+    <hr>
+    <div class="content">
+        <div id="partner-grid">
+            <div id="partner-card">
+                <div class="card-content">
+                </div>
+            </div>
+            <div class="partner-description">
+                <h3>Laden Sie Ihre Freunde ein und erhalten Sie Boni</h3>
+                <p>Es geht ganz einfach: </p>
+                <p>Sie erstellen nach Ihrer Registrierung einen Partner-Code, welchen Sie an einem Bekannten weitergeben können. Dieser wird bei der Registrierung eingegeben. Nach der erfolgreichen Registrierung des Bekannten erhält dieser eine kostenlose Ziehung. </p>
+                <p>Sie profitieren aber auch davon. Bei jeder Wette, die Ihr Partner abschließt, bekommen Sie eine kleine Provision.</p>
+            </div>
+        </div>
+        <br>
+    </div>
+</section>
+
+
+
+<!==================== SIGN IN ====================>
+
+<section id="register">
+    <h1>Jetzt Anmelden</h1>
+    <hr>
+    <div class="content">
+        <h3>Melden Sie sich jetzt an und verdienen Sie Millionen</h3>
+        <p>
+            Um jetzt mit dem Wetten zu starten, brauchen Sie nur diese 3 einfachen Schritte zu befolgen.
+        </p>
+        <br>
+        <div id="register-grid">
+            <div class="card-small" id="element-1">
+                <div class="card-numbering">
+                    <p>1</p>
+                </div>
+                <h3>Konto anlegen</h3>
+                <p>Klicken Sie auf <a class="btn" href="/register">Registrieren</a> und geben Sie Ihre Daten ein.</p>
+            </div>
+            <div class="card-small" id="element-2">
+                <div class="card-numbering">
+                    <p>2</p>
+                </div>
+                <h3>Wählen</h3>
+                <p>Wählen Sie zwischen Lotterie 6 aus 49 oder Fußballtoto.</p>
+            </div>
+            <div class="card-small" id="element-3">
+                <div class="card-numbering">
+                    <p>3</p>
+                </div>
+                <h3>Wetten</h3>
+                <p>Geben Sie ihre Wette und Ihren Wettbetrag ein und schließen Sie die Wette ab.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!==================== ABOUT ====================>
+
+<section id="about">
+    <h1>Über uns</h1>
+    <hr>
+    <div class="content">
+        <p>
+            Mach Dein Glück!! ist die offizielle, staatlich betriebene Lotterie des Landes Gamblien.
+            Im Jahr 1978 vom baldigen Wirtschaftsminister Lorenz Lottermann gegründet, erfreute sich "Mach Dein Glück!!" bald großer beliebtheit.
+            Inzwischen sind wir Gambliens erfolgreichster Anbieter für die Lotterie. Unsere Tippscheine werden mittlerweile an über 500 Stellen in Gamblien verkauft, Tendez steigend.
+            Mit unserer Webseite, welche 2022 Fertiggestellt wurde, ist es nun unser Ziel, den Spaß und die Freude des Glückspiels mit dem Rest der Welt zu teilen.
+        </p>
+    </div>
+    <div id="managing" >
+        <div class="img-card" id="owner">
+            <div class="img">
+
+            </div>
+            <p>Lorenz Lottermann (2015)</p>
+            <p>Geschäftsführer</p>
+        </div>
+        <div class="img-card" id="assistent-1">
+            <div class="img">
+
+            </div>
+            <p>Kristine Neumann (2019)</p>
+            <p>Leitende Assistentin</p>
+        </div>
+        <div class="img-card" id="assistent-2">
+            <div class="img">
+
+            </div>
+            <p>Reiner Braun (2021)</p>
+            <p>Leiter Rechnungswesen</p>
+        </div>
+    </div>
+</section>
+
+
+<!==================== FOOTER ====================>
+
+<footer>
+    <p>Mach Dein Glück!! © 2021</p>
+</footer>
+</body>
+</html>

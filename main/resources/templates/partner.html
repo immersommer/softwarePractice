@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en"  dir="ltr" xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+<head>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Symbols -->
+    <script src="https://kit.fontawesome.com/63a2b78b2b.js" crossorigin="anonymous"></script>
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <!-- CSS -->
+    <link th:href="@{/resources/css/style_navigation.css}" rel="stylesheet"/>
+
+    <link th:href="@{/resources/css/style_general.css}" rel="stylesheet"/>
+
+    <link th:href="@{/resources/css/style_login.css}" rel="stylesheet"/>
+
+    <link th:href="@{/resources/css/style_partner.css}" rel="stylesheet"/>
+
+    <meta charset="UTF-8">
+    <title>Partner</title>
+</head>
+<body>
+<nav th:include="navigation :: navigation"></nav>
+
+<section class="main-content">
+    <div class="main-header">
+        <h1>PARTNER PROGRAMM</h1>
+    </div>
+    <div class="content">
+        <div id="general-info">
+            <h4>Hier können Sie erfahren, wie Sie und andere neue Nutzer von unserem Partner-Programm profitieren können.</h4>
+            <p style="text-align: justify; margin: 0">Wenn Sie genauso viel Spaß beim Wetten wie wir und viele andere Nutzer haben und einen Bekannten in die Welt des Glücksspiels einführen möchten, sind Sie bei unserem Partner-Programm genau richtig.</p>
+        </div>
+
+        <div id="partner-grid">
+        <div id="partner-info">
+            <p style="padding-left: 5px;font-size: 20px;color: #0d6ef5;text-align: justify">Laden Sie Ihre Freunde ein und erhalten Sie Boni</p>
+            <p style="padding-left: 5px;text-align: justify;border-left: 3px solid #0d6ef5;">Es geht ganz einfach: </p>
+            <p style="padding-left: 5px;text-align: justify;border-left: 3px solid #0d6ef5;">Sie erstellen hier einen Partner-Code, welchen Sie an einem Bekannten weitergeben können. Dieser wird bei der Registrierung eingegeben. Nach der erfolgreichen Registrierung des Bekannten erhält dieser eine kostenlose Ziehung. </p>
+            <p style="padding-left: 5px;text-align: justify;border-left: 3px solid #0d6ef5;">Sie profitieren aber auch davon. Bei jeder Wette, die Ihr Partner abschließt, bekommen Sie eine kleine Provision.</p>
+        </div>
+
+        <div class="login-box" th:if="${!hasPartnerCode}">
+            <div class="head">
+                <h1>Partner-Code erstellen</h1>
+            </div>
+            <div class="login-content">
+                <form class="ui form" role="form" id="form" th:action="@{/partner}" th:object="${form}" method="post">
+                    <div th:if="${param.error}" class="alert-error">
+                        Fehlerhafter Code
+                    </div>
+                    <div class="input-field">
+                        <p>Partner-Code</p>
+                        <input id="newPartnerCode" th:value="${newPartnerCode}" th:errorclass="fieldError" type="text"
+                               required="required" name="newPartnerCode" placeholder="Partner-Code eingeben">
+                    </div>
+                    <input type="submit" name="action" class="ui button" value="Code erstellen">
+                </form>
+            </div>
+        </div>
+
+        <div class="container" id="partner-code" th:if="${hasPartnerCode}">
+            <div class="container_head">
+                <p id="partner-code-label"> Ihr Partner-Code</p>
+            </div>
+            <div class="container_content">
+                <p style="font-size: 30px;text-align:center;padding-top: 80px" th:text="${partnerCode}"></p>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+<!-- Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en"  dir="ltr" xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+<head>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <!-- Symbols -->
+  <script src="https://kit.fontawesome.com/63a2b78b2b.js" crossorigin="anonymous"></script>
+  <!-- JQuery -->
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <!-- CSS -->
+  <link th:href="@{/resources/css/style_navigation.css}" rel="stylesheet"/>
+
+  <link th:href="@{/resources/css/style_general.css}" rel="stylesheet"/>
+
+  <link th:href="@{/resources/css/style_betting.css}" rel="stylesheet"/>
+
+  <meta charset="UTF-8">
+  <title>Wetten</title>
+</head>
+<body>
+<nav th:include="navigation :: navigation"></nav>
+
+<section class="main-content">
+  <div class="main-header">
+    <h1>WETTE ÄNDERN</h1>
+  </div>
+  <div class="content">
+    <div class="card-container">
+      <div class="card text-white bg-dark">
+        <div class="card-header bg-primary" th:text="${match.date}"></div>
+        <div class="card-body">
+          <form method="post" role="form" class="ui form" id="form" th:action="@{/betting/updateFootball}">
+            <input type="hidden" name="betId" value="0" th:value="${betId}"/>
+            <input type="hidden" name="match" value="0" th:value="${match.id}"/>
+            <h5 class="card-title text-center" th:text="${match.toShortString()}">Dark card title</h5>
+            <div class="row">
+              <img class="col-2" th:src="${match.homeIcon}" style="height:3rem;width: content-box"/>
+              <div class="col-4">
+                <input type="number" class="form-control" id="home_score" name="home_score" placeholder="Heim" min="0" max="20" required>
+              </div>
+              <div class="col-4">
+                <input type="number" class="form-control" id="guest_score" name="guest_score" placeholder="Gast" min="0" max="20" required>
+              </div>
+              <img class="col-2" th:src="${match.guestIcon}" style="height:3rem;width: content-box"/>
+            </div>
+            <br/>
+            <label for="oldAmount">bisheriger Wettbetrag: </label>
+            <span id="oldAmount" th:text="${betAmount}"></span>
+            <br/>
+            <div class="row">
+              <div class="col-9">
+                <input type="number" class="form-control" id="amount" name="amount" placeholder="neuer Wettbetrag" min="1" max="10000" required>
+              </div>
+              <div class="col-2">
+                <button type="submit" class="btn btn-success mb-3"><span> ändern!</span></button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en"  dir="ltr" xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+<head>
+</head>
+<body>
+<!--
+  <nav th:fragment="navigation">
+    <div class="wrapper">
+      <div class="sidebar">
+        <div class="profile">
+          <div class="profile_details">
+            <div class="name_status">
+              <div class="name" sec:authorize="isAuthenticated()" th:text="${#authentication?.name}"></div>
+            </div><br/>
+            <div class="message">
+              <a href="/message">
+                <button type="button" class="btn btn-primary position-relative">
+                  Nachrichten
+                  <span th:if="${alert}" class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle">
+                    <span class="visually-hidden">New alerts</span>
+                  </span>
+                </button>
+              </a>
+            </div><br/>
+            <div>
+              <a href="/edit-user">
+                <button type="button" class="btn btn-secondary btn-sm position-relative">
+                  Kontobearbeitung
+                </button>
+              </a>
+            </div><br/>
+          </div>
+          <form class="item" sec:authorize="isAuthenticated()" th:action="@{/logout}" method="post">
+            <button type="submit" class="btn btn-danger btn-sm">Logout</button>
+          </form>
+        </div>
+
+        <ul class="nav-list">
+          <li><a href="/home"><i class="fas fa-home"></i>Überblick</a></li>
+          <li><a href="/betting"><i class="fas fa-money-check-alt"></i>Wetten</a></li>
+          <li><a href="/community"><i class="fas fa-users"></i>Gemeinschaft</a></li>
+          <li><a href="/finances"><i class="fas fa-coins"></i>Finanzen</a></li>
+          <li><a href="/partner"><i class="fas fa-coins"></i>Partnerprogramm</a></li>
+         <li><a href="/admin" sec:authorize="hasRole('BOSS')"><i class="fas fa-user-tie"></i>Admin</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  -->
+
+  <div class="sidebar-container" th:fragment="navigation">
+    <nav class="sidebar">
+
+      <div id="logo">
+        <h1>MACH DEIN GLÜCK!!</h1>
+      </div>
+      <ul id="icons">
+        <li>
+          <div class="icon">
+            <a href="/home">
+              <i class="fas fa-home"></i>
+              <div class="icon-text">
+                <p>Überblick</p>
+              </div>
+            </a>
+          </div>
+
+        </li>
+        <li>
+          <div class="icon">
+            <a href="/betting">
+              <i class="fas fa-money-check-alt"></i>
+              <div class="icon-text">
+                <p>Wetten</p>
+              </div>
+            </a>
+          </div>
+
+        </li>
+        <li>
+          <div class="icon">
+            <a href="/community">
+              <i class="fas fa-users"></i>
+              <div class="icon-text">
+                <p>Community</p>
+              </div>
+            </a>
+          </div>
+
+        </li>
+        <li>
+          <div class="icon">
+            <a href="/finances">
+              <i class="fas fa-coins"></i>
+              <div class="icon-text">
+                <p>Finanzen</p>
+              </div>
+            </a>
+          </div>
+
+        </li>
+        <li>
+          <div class="icon">
+            <a href="/partner">
+              <i class="fas fa-handshake"></i>
+              <div class="icon-text">
+                <p>Partner</p>
+              </div>
+            </a>
+          </div>
+
+        </li>
+
+        <li>
+          <div class="icon">
+            <a href="/message">
+              <i class="fas fa-envelope">
+                <span th:if="${alert}" class="position-absolute top-right p-2 bg-danger border border-light rounded-circle">
+                  <span class="visually-hidden">New alerts</span>
+                </span>
+              </i>
+
+              <div class="icon-text">
+                <p>Nachrichten</p>
+              </div>
+            </a>
+
+          </div>
+
+        </li>
+      </ul>
+
+      <div id="profile-details">
+        <i class="fas fa-user-alt"></i>
+        <div id="details">
+          <p sec:authorize="isAuthenticated()" th:text="${#authentication?.name}"></p>
+        </div>
+        <div id="profile-options">
+          <form sec:authorize="isAuthenticated()" th:action="@{/logout}" method="post">
+            <button type="submit">
+              <div class="option" id="sign-out">
+                <i class="fas fa-sign-out-alt"></i>
+                <div class="icon-text">
+                  <p>Ausloggen</p>
+                </div>
+              </div>
+            </button>
+          </form>
+          <a href="/edit-user">
+            <div class="option" id="edit-profile">
+              <i class="fas fa-user-cog"></i>
+              <div class="icon-text">
+                <p>Profil bearbeiten</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </nav>
+  </div>
+</body>
+</html>

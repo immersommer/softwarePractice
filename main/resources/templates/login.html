@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+<head>
+	<title>Login</title>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+	<script src="https://kit.fontawesome.com/63a2b78b2b.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" th:href="@{/resources/css/style_login.css}" />
+</head>
+
+<body>
+<div id="background">
+</div>
+<div class="main">
+	<div class="login-box">
+		<div class="head">
+			<h1>Hier Einloggen</h1>
+		</div>
+		<div class="login-content">
+			<form class="ui form" role="form" th:action="@{/login}" method="post">
+				<div th:if="${param.error}" class="alert-error">
+					Fehlerhafte Anmeldedaten
+				</div>
+				<div class="input-field">
+					<p>Nutzername</p>
+					<input type="text" id="username" name="username" placeholder="Nutzernamen eingeben" autofocus="autofocus"/>
+				</div>
+				<div class="input-field">
+					<p>Passwort</p>
+					<input type="password" id="password" name="password" placeholder="Passwort eingeben">
+				</div>
+
+				<input type="submit" class="ui button" value="Einloggen">
+				<a href="register.html" th:href="@{/register}">Sie haben noch kein Konto?</a><br>
+
+			</form>
+		</div>
+	</div>
+</div>
+</body>
+</html>

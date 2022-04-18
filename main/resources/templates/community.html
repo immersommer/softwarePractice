@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en"  dir="ltr" xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+<head>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Symbols -->
+    <script src="https://kit.fontawesome.com/63a2b78b2b.js" crossorigin="anonymous"></script>
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <!-- CSS -->
+    <link th:href="@{/resources/css/style_navigation.css}" rel="stylesheet"/>
+
+    <link th:href="@{/resources/css/style_general.css}" rel="stylesheet"/>
+
+    <link th:href="@{/resources/css/style_community.css}" rel="stylesheet"/>
+
+    <meta charset="UTF-8">
+    <title>Community</title>
+</head>
+<body>
+<nav th:include="navigation :: navigation"></nav>
+
+<section class="main-content">
+    <div class="main-header">
+        <h1>GEMEINSCHAFT</h1>
+    </div>
+    <div class="content" id="community_overview">
+        <div class="container" id="your_communities">
+            <div class="container_head">
+                <p>Ihre Gemeinschaften:</p>
+            </div>
+            <div class="container_content" id="current-communities">
+                <div id="communities_empty" th:if="${personalCommunities.empty}">
+                    <p class="empty_text p-1">Sie sind noch keiner Gemeinschaft beigetreten</p>
+                </div>
+            <div class="table-scroll-container" th:if="${!personalCommunities.empty}">
+                <table class="table-scroll">
+                    <thead>
+                    <tr>
+                        <th scope="col">Gemeinschaftsname</th>
+                        <th scope="col">Überblick</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr th:each="community : ${personalCommunities} " class="tr">
+                        <td th:text="${community.name}"></td>
+                        <td>
+                            <a th:href="@{/community/{communityName}(communityName=${community.name})}">
+                                <button class="btn btn-primary btn-sm">Überblick</button>
+                            </a>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            </div>
+        </div>
+        <div class="container" id="other_communities">
+            <div class="container_head">
+                <p>Beitretbare Gemeinschaften:</p>
+            </div>
+            <div class="container_content" id="joinable-communities">
+                <div id="join_communities_empty" th:if="${joinableCommunities.empty}">
+                    <p class="empty_text p-1">Keine betretbare Community zur Verfügung</p>
+                </div>
+                <div class="table-scroll-container" th:if="${!joinableCommunities.empty}">
+                    <table class="table-scroll">
+                        <thead>
+                        <tr>
+                            <th scope="col">Gemeinschaftsname</th>
+                            <th scope="col">Beitreten</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr th:each="community : ${joinableCommunities} " class="tr">
+                            <td th:text="${community.name}"></td>
+                            <td>
+                                <a th:href="${'/community/join?communityName=' + community.name}">
+                                    <button class="btn btn-primary btn-sm">Beitreten</button>
+                                </a>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="container" id="create">
+            <div class="container_content">
+                <div class="community_buttons">
+                    <a  href="/community/create">
+                        <button class="btn btn-primary btn-lg">erstellen</button>
+                    </a>
+                    <a  href="/community/join">
+                        <button class="btn btn-primary btn-lg">beitreten</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+<!-- Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</html>
