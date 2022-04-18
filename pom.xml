@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<!-- Dear students, please *do not* change the following metadata. Thanks! -->
+
+	<artifactId>swt21w08</artifactId>
+	<version>1.0.0.BUILD-SNAPSHOT</version>
+
+	<name>swt21w08</name>
+	<description>ST lab project of group swt21w08</description>
+	<url>https://github.com/st-tu-dresden-praktikum/swt21w08</url>
+	<scm>
+		<url>https://github.com/st-tu-dresden-praktikum/swt21w08</url>
+	</scm>
+
+	<parent>
+		<groupId>de.tudresden.inf.st.lab</groupId>
+		<artifactId>st-lab-parent</artifactId>
+		<version>2.4.0</version>
+		<relativePath/>
+	</parent>
+
+	<properties>
+		<java.version>11</java.version>
+		<salespoint.version>7.4.0</salespoint.version>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-validation</artifactId>
+		</dependency>
+
+		<!--
+			Additional project dependencies go here.
+
+			BUT PLEASE NOTE!
+
+			The parent pom that is referenced above already includes most libraries
+			necessary for the lab: Spring, Salespoint, Hibernate, JUnit, etc.
+
+			You can list the current dependencies and their versions using the
+			`mvn dependency:list` command.
+
+			Use Maven Central for package search (https://search.maven.org/).
+		-->
+		<dependency>
+			<groupId>com.h2database</groupId>
+			<artifactId>h2</artifactId>
+			<version>1.0.57</version>
+			<scope>compile</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-jdbc</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-webflux</artifactId>
+			<version>2.2.6.RELEASE</version>
+		</dependency>
+
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.13-beta-1</version>
+			<scope>test</scope>
+		</dependency>
+
+        <dependency>
+            <groupId>org.jetbrains</groupId>
+            <artifactId>annotations</artifactId>
+            <version>RELEASE</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
+
+	<repositories>
+		<repository>
+			<id>salespointframework</id>
+			<url>https://www.st.inf.tu-dresden.de/SalesPoint/repository</url>
+		</repository>
+	</repositories>
+
+</project>
